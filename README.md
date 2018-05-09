@@ -8,15 +8,21 @@ from parents abroad, regardless culture or context, on what are the best parenti
 # Resources
 - [Ask HN: Any good collaboratively built documentation on good parenting?](https://news.ycombinator.com/item?id=17023693)
 - [Janet Lansbury - Elevating Child Care](http://www.janetlansbury.com/)
+- [Hand in Hand Parenting](https://www.handinhandparenting.org/)
+
+## Platforms
+- [Parenting in stackexchange.com](https://parenting.stackexchange.com/)
+- [Winnie](https://winnie.com/)
 
 ## Books
-- The Gardener and the Carpenter
-- Selfish Reasons to Have More Kids
-- The Well-Behaved Child: Discipline That Really Works!
-- How to Talk So Kids Will Listen
-- Raising An Emotionally Intelligent Child
-- And Baby Makes Three
-- The Rational Male - Positive Masculinity
+Find the books in [books.md](https://github.com/davidpelayo/awesome-parenting/blob/master/books.md)
 
 ## Philosophies
 - [Taking Children Seriously (TCS)](http://fallibleideas.com/taking-children-seriously)
+
+## Techniques
+- [Special Time](https://www.handinhandparenting.org/article/how-special-time-makes-children-content/)
+- [Staylistening](https://www.handinhandparenting.org/article/what-to-say-during-staylistening/)
+
+## Courses
+- [Scientific Secrets for Raising Kids Who Thrive](https://www.thegreatcourses.com/courses/scientific-secrets-for-raising-kids-who-thrive.html)
