@@ -1,9 +1,11 @@
 # Awesome Parenting
-Parenting information & advice for expectant fathers. The first worldwide collaborative fatherhood guide.
+Parenting information & advice for expectant fathers.
+The first worldwide collaborative fatherhood guide.
 
 # Motivation
-It feels to me, although being a difficult topic to discus and agree on consensus, it would be so useful to have different guidelines
-from parents abroad, regardless culture or context, on what are the best parenting practises and guidelines, generally talking.
+It feels to me, although being a difficult topic to discus and agree on, it's useful to have a good amount of information available to query at anytime.
+
+Getting different opinions, resources and books from other parents' recommendations, regardless culture or context, on what are the best parenting practises and guidelines, generally talking, it's always a useful resource to have.
 
 # Resources
 - [Ask HN: Any good collaboratively built documentation on good parenting?](https://news.ycombinator.com/item?id=17023693)
