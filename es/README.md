@@ -15,7 +15,6 @@ en cuanto a buenas prácticas y metodologías, en términos generales, siempre e
 - [Recursos](#recursos)
 - [Plataformas](#plataformas)
 - [Libros](#libros)
-- [Filosofías](#filosofías)
 - [Técnicas](#técnicas)
 - [Cursos](#cursos)
 
@@ -31,11 +30,13 @@ en cuanto a buenas prácticas y metodologías, en términos generales, siempre e
 ## Libros
 
 
-## Filosofías
-
-
 ## Técnicas
-
+### Preescolar
+- Montessori
+- Waldorf
+- Reggio Emilia
+- Filosofía de aprenzidaje basado en el conocimiento
+- Cooperación
 
 ## Cursos
 

@@ -7,13 +7,12 @@ It feels to me, although being a difficult topic to discus and agree on, it's us
 
 Getting different opinions, resources and books from other parents' recommendations, regardless culture or context, on what are the best parenting practises and guidelines, generally talking, it's always a useful resource to have.
 
-## Table of contents
+# Table of contents
 
 - [Languages](#languages)
 - [Resources](#resources)
 - [Platforms](#plaforms)
 - [Books](#books)
-- [Philosophies](#philosophies)
 - [Techniques](#techniques)
 - [Courses](#courses)
 
@@ -29,7 +28,7 @@ Getting different opinions, resources and books from other parents' recommendati
 - [parenting.stackexchange.com](https://parenting.stackexchange.com/)
 - [Winnie](https://winnie.com/)
 
-# Books
+## Books
 - [Between Parent and Child - H. G. Ginott](https://www.goodreads.com/book/show/256004.Between_Parent_and_Child)
 - [The Pocket Parent - Gail Reichlin & Caroline Winkler](https://www.goodreads.com/book/show/581287.The_Pocket_Parent)
 - [The Gardener and the Carpenter](https://www.goodreads.com/book/show/28595855-the-gardener-and-the-carpenter)
@@ -42,13 +41,23 @@ Getting different opinions, resources and books from other parents' recommendati
 - [Smart But Scattered](https://www.goodreads.com/book/show/6053700-smart-but-scattered)
 - [Parent Effectiveness Training](https://www.goodreads.com/book/show/165548.Parent_Effectiveness_Training)
 
-## Philosophies
-- [Taking Children Seriously (TCS)](http://fallibleideas.com/taking-children-seriously)
-
 ## Techniques
+### Preschool
+- [Montessori](https://en.wikipedia.org/wiki/Montessori_education)
+- [Waldorf](https://en.wikipedia.org/wiki/Waldorf_education)
+- [Reggio Emilia](https://en.wikipedia.org/wiki/Reggio_Emilia_approach)
+- HighScope
+- Bank Street
+- Creative Curriculum
+- Cooperative
+
+### Uncategorized
 - [Special Time](https://www.handinhandparenting.org/article/how-special-time-makes-children-content/)
 - [Staylistening](https://www.handinhandparenting.org/article/what-to-say-during-staylistening/)
 - [Concrete Pictorial Abstract](https://mathsnoproblem.com/en/the-maths/teaching-methods/concrete-pictorial-abstract/)
+- [Project Based Education](https://en.wikipedia.org/wiki/Project-based_learning)
+- [Alternative Education](https://en.wikipedia.org/wiki/Alternative_education)
+- Cognitive Based Philosophy
 
 ## Courses
 - [Scientific Secrets for Raising Kids Who Thrive](https://www.thegreatcourses.com/courses/scientific-secrets-for-raising-kids-who-thrive.html)
