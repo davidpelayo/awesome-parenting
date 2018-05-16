@@ -48,6 +48,7 @@ Getting different opinions, resources and books from other parents' recommendati
 ## Techniques
 - [Special Time](https://www.handinhandparenting.org/article/how-special-time-makes-children-content/)
 - [Staylistening](https://www.handinhandparenting.org/article/what-to-say-during-staylistening/)
+- [Concrete Pictorial Abstract](https://mathsnoproblem.com/en/the-maths/teaching-methods/concrete-pictorial-abstract/)
 
 ## Courses
 - [Scientific Secrets for Raising Kids Who Thrive](https://www.thegreatcourses.com/courses/scientific-secrets-for-raising-kids-who-thrive.html)
