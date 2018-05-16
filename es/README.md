@@ -2,12 +2,22 @@
 Información y consejos para padres o personas que esperen serlo.
 La primera guía colaborativa del mundo que reune recursos parentales.
 
-# Motivation
+# Motivación
 Tengo la sensación, aun siendo un tema en el que difícilmente se llega a acuerdos dada las distintas opiniones,
 que es útil reunir recursos de buena calidad para poder consultar en cualquier momento.
 
 Obtener diferentes opiniones, recursos y libros de otros padres del mundo, independientemente de la cultura o contexto,
 en cuanto a buenas prácticas y metodologías, en términos generales, siempre es positivo.
+
+## Índice
+
+- [Idiomas](#idiomas)
+- [Recursos](#recursos)
+- [Plataformas](#plataformas)
+- [Libros](#libros)
+- [Filosofías](#filosofias)
+- [Técnicas](#tecnicas)
+- [Cursos](#cursos)
 
 # Idiomas
 - [English/Inglés](https://github.com/davidpelayo/awesome-parenting/blob/master/README.md)
@@ -19,10 +29,13 @@ en cuanto a buenas prácticas y metodologías, en términos generales, siempre e
 
 
 ## Libros
-Mira los [libros](https://github.com/davidpelayo/awesome-parenting/blob/master/es/libros.md)
+
 
 ## Filosofías
 
+
 ## Técnicas
 
+
 ## Cursos
+
