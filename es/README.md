@@ -15,8 +15,8 @@ en cuanto a buenas prácticas y metodologías, en términos generales, siempre e
 - [Recursos](#recursos)
 - [Plataformas](#plataformas)
 - [Libros](#libros)
-- [Filosofías](#filosofias)
-- [Técnicas](#tecnicas)
+- [Filosofías](#filosofías)
+- [Técnicas](#técnicas)
 - [Cursos](#cursos)
 
 # Idiomas

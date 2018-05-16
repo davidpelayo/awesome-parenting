@@ -26,21 +26,21 @@ Getting different opinions, resources and books from other parents' recommendati
 - [Hand in Hand Parenting](https://www.handinhandparenting.org/)
 
 ## Platforms
-- [Parenting in stackexchange.com](https://parenting.stackexchange.com/)
+- [parenting.stackexchange.com](https://parenting.stackexchange.com/)
 - [Winnie](https://winnie.com/)
 
 # Books
-- [Between Parent and Child - H. G. Ginott](http://www.betweenparentandchild.com/index.php?s=content&p=Haim)
-- [The Pocket Parent - Gail Reichlin & Caroline Winkler](https://www.workman.com/products/the-pocket-parent-1)
-- The Gardener and the Carpenter
-- Selfish Reasons to Have More Kids
-- The Well-Behaved Child: Discipline That Really Works!
-- Raising An Emotionally Intelligent Child
-- And Baby Makes Three
-- The Rational Male - Positive Masculinity
-- How to Talk so Kids Will Listen. And Listen So Kids Will Talk
-- Smart But Scattered
-- "Parent Effectiveness Training
+- [Between Parent and Child - H. G. Ginott](https://www.goodreads.com/book/show/256004.Between_Parent_and_Child)
+- [The Pocket Parent - Gail Reichlin & Caroline Winkler](https://www.goodreads.com/book/show/581287.The_Pocket_Parent)
+- [The Gardener and the Carpenter](https://www.goodreads.com/book/show/28595855-the-gardener-and-the-carpenter)
+- [Selfish Reasons to Have More Kids](https://www.goodreads.com/book/show/10266902-selfish-reasons-to-have-more-kids)
+- [The Well-Behaved Child: Discipline That Really Works!](https://www.goodreads.com/book/show/6908356-the-well-behaved-child)
+- [Raising An Emotionally Intelligent Child](https://www.goodreads.com/book/show/213186.Raising_An_Emotionally_Intelligent_Child)
+- [And Baby Makes Three](https://www.goodreads.com/book/show/16083932-and-baby-makes-three)
+- [The Rational Male - Positive Masculinity](https://www.goodreads.com/book/show/35832854-the-rational-male---positive-masculinity)
+- [How to Talk so Kids Will Listen. And Listen So Kids Will Talk](https://www.goodreads.com/book/show/769016.How_to_Talk_So_Kids_Will_Listen_Listen_So_Kids_Will_Talk)
+- [Smart But Scattered](https://www.goodreads.com/book/show/6053700-smart-but-scattered)
+- [Parent Effectiveness Training](https://www.goodreads.com/book/show/165548.Parent_Effectiveness_Training)
 
 ## Philosophies
 - [Taking Children Seriously (TCS)](http://fallibleideas.com/taking-children-seriously)
