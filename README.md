@@ -18,15 +18,27 @@ Getting different opinions, resources and books from other parents' recommendati
 
 # Languages
 - [Spanish/Castellano](https://github.com/davidpelayo/awesome-parenting/blob/master/es/README.md)
+- [Portuguese/Português](https://github.com/davidpelayo/awesome-parenting/blob/master/pt/README.md)
+- [French/Français](https://github.com/davidpelayo/awesome-parenting/blob/master/fr/README.md)
+- [Italian/Italiano](https://github.com/davidpelayo/awesome-parenting/blob/master/it/README.md)
+- [Catalan/Català](https://github.com/davidpelayo/awesome-parenting/blob/master/ca/README.md)
+- [German/Deutsch](https://github.com/davidpelayo/awesome-parenting/blob/master/de/README.md)
 
 # Resources
 - [Ask HN: Any good collaboratively built documentation on good parenting?](https://news.ycombinator.com/item?id=17023693)
 - [Janet Lansbury - Elevating Child Care](http://www.janetlansbury.com/)
 - [Hand in Hand Parenting](https://www.handinhandparenting.org/)
+- [Fatherly - Parenting, news and advice for dads](https://www.fatherly.com/)
+- [Dad.info - Support for fathers](https://dad.info/)
+- [Fathers.com - The National Center for Fathering](https://fathers.com/)
 
 ## Platforms
 - [parenting.stackexchange.com](https://parenting.stackexchange.com/)
 - [Winnie](https://winnie.com/)
+- [Reddit r/daddit](https://www.reddit.com/r/daddit/)
+- [Reddit r/NewParents](https://www.reddit.com/r/NewParents/)
+- [BabyCenter](https://www.babycenter.com/)
+- [What to Expect](https://www.whattoexpect.com/)
 
 ## Books
 - [Between Parent and Child - H. G. Ginott](https://www.goodreads.com/book/show/256004.Between_Parent_and_Child)
@@ -58,6 +70,12 @@ Getting different opinions, resources and books from other parents' recommendati
 - [Project Based Education](https://en.wikipedia.org/wiki/Project-based_learning)
 - [Alternative Education](https://en.wikipedia.org/wiki/Alternative_education)
 - Cognitive Based Philosophy
+- [Positive Discipline](https://www.positivediscipline.com/)
+- [RIE Parenting (Resources for Infant Educarers)](https://www.rie.org/)
+- [Attachment Parenting](https://www.attachmentparenting.org/)
+- [Growth Mindset Parenting](https://www.mindsetworks.com/parents/growth-mindset-parenting)
 
 ## Courses
 - [Scientific Secrets for Raising Kids Who Thrive](https://www.thegreatcourses.com/courses/scientific-secrets-for-raising-kids-who-thrive.html)
+- [Positive Parenting Solutions](https://www.positiveparentingsolutions.com/)
+- [Coursera - Everyday Parenting: The ABCs of Child Rearing](https://www.coursera.org/learn/everyday-parenting)
