@@ -30,28 +30,34 @@ zu den besten Praktiken und Methoden der Elternschaft ist immer positiv.
 - [Urbia](https://www.urbia.de/)
 - [Rund-ums-Baby](https://www.rund-ums-baby.de/)
 - [Familienhandbuch](https://www.familienhandbuch.de/)
-- [Bundeszentrale für gesundheitliche Aufklärung](https://www.bzga.de/infomaterialien/familienplanung/)
 - [Vaeter.de](https://www.vaeter.de/)
-- [Familientreff](https://www.familientreff.de/)
 - [Deutsche Liga für das Kind](https://www.liga-kind.de/)
+- [SCHAU HIN! - Medienratgeber für Familien](https://www.schau-hin.info/)
+- [Kinderärzte im Netz](https://www.kinderaerzte-im-netz.de/)
+- [Familienportal des Bundes](https://familienportal.de/)
+- [NZFH - elternsein.info](https://www.elternsein.info/)
+- [bke-Onlineberatung (Elternberatung)](https://www.bke-beratung.de/elternberatung)
 
 ## Plattformen
 - [Reddit r/Eltern](https://www.reddit.com/r/Eltern/)
 - [Reddit r/de](https://www.reddit.com/r/de/)
 - [Eltern Forum](https://forum.eltern.de/)
 - [Urbia Forum](https://www.urbia.de/forum/)
-- [Netmoms Forum](https://www.netmoms.de/foren/)
+- [HiPP Baby- und Elternforum](https://www.hipp.de/forum/)
+- [Erziehung-Online - Das Eltern-Forum](https://www.erziehung-online.de/)
+- [Elternforen.com](https://www.elternforen.com/)
 
 ## Bücher
-- [Väter für Einsteiger - Wolfgang Gründinger](https://www.amazon.de/V%C3%A4ter-f%C3%BCr-Einsteiger-Survival-Guide-Schwangerschaft/dp/3843605262/)
-- [Die ersten 1000 Tage - Eva Möhler](https://www.amazon.de/Die-ersten-1000-Tage-Selbstregulation/dp/3456858809/)
-- [Vater werden - Matthias Stiehler](https://www.amazon.de/Vater-werden-Die-gr%C3%B6%C3%9Fte-Herausforderung/dp/3497025593/)
-- [Die Kunst, ein Vater zu sein - Mathias Jung](https://www.amazon.de/Die-Kunst-ein-Vater-sein/dp/3466307554/)
 - [Artgerecht - Nicola Schmidt](https://www.amazon.de/artgerecht-andere-Bedürfnisse-Babys-Kleinkinder/dp/3466310490/)
 - [Das gewünschteste Wunschkind aller Zeiten treibt mich in den Wahnsinn - Danielle Graf](https://www.amazon.de/gew%C3%BCnschteste-Wunschkind-Zeiten-treibt-Wahnsinn/dp/3407864299/)
-- [Jesper Juul - Dein kompetentes Kind](https://www.amazon.de/Dein-kompetentes-Kind-Vertrauen-Selbstvertrauen/dp/3499622890/)
-- [Väter Sprechstunde - Remo H. Largo](https://www.amazon.de/V%C3%A4ter-Sprechstunde-verstehen-Entwicklung-unterst%C3%BCtzen-ebook/dp/B008YYBR26/)
-- [Eltern sein, Paar bleiben - Remo H. Largo](https://www.amazon.de/Eltern-sein-Paar-bleiben-Familie/dp/3492058337/)
+- [Dein kompetentes Kind - Jesper Juul](https://www.amazon.de/Dein-kompetentes-Kind-Vertrauen-Selbstvertrauen/dp/3499622890/)
+- [Babyjahre - Remo H. Largo](https://www.amazon.de/Babyjahre-Entwicklung-Erziehung-ersten-Jahren/dp/3492306845)
+- [So viel Freude, so viel Wut - Nora Imlau](https://www.amazon.de/viel-Freude-Wut-Gef%C3%BChlsstarke-Einsch%C3%A4tzungsbogen/dp/3466310954)
+- [Kinder verstehen - Herbert Renz-Polster](https://www.amazon.de/Kinder-verstehen-Born-wild-Evolution/dp/3466308240)
+- [Das Buch, von dem du dir wünschst, deine Eltern hätten es gelesen - Philippa Perry](https://www.amazon.de/w%C3%BCnschst-deine-Eltern-h%C3%A4tten-gelesen/dp/3550200749)
+- [Jedes Kind ist hoch begabt - Gerald Hüther, Uli Hauser](https://www.amazon.de/Jedes-Kind-ist-hoch-begabt/dp/3813504484)
+- [Wild Child - Eliane Retz, Christiane Stella Bongertz](https://www.amazon.de/Wild-Child-Entwicklung-verstehen-Kleinkinder/dp/B0929CKWDY)
+- [Ich übersetze dir dein Kind - Julia Cammann](https://www.amazon.de/-/en/%C3%BCbersetze-dein-Kind-bindungsorientiert-SPIEGEL-Bestseller/dp/3466312442)
 
 ## Techniken
 ### Vorschule
@@ -61,15 +67,15 @@ zu den besten Praktiken und Methoden der Elternschaft ist immer positiv.
 - HighScope
 - Wissensbasierte Lernphilosophie
 - Kooperation
-- [Positive Disziplin](https://www.positivedisziplin.de/)
-- [Bedürfnisorientierte Erziehung](https://www.beduerfnisorientierte-erziehung.de/)
-- [Emotionale Bildung](https://www.emotionalebildung.de/)
-- [Gewaltfreie Kommunikation (GFK)](https://www.gewaltfrei-kommunizieren.de/)
+- Positive Disziplin
+- Bedürfnisorientierte Erziehung
+- Gewaltfreie Kommunikation (GFK)
 
 ## Kurse
-- [Starke Eltern - Starke Kinder](https://www.starkeeltern-starkekinder.de/)
-- [Elternkurse der Familienbildungsstätten](https://familienbildung.de/elternkurse/)
+- [Starke Eltern - Starke Kinder](https://sesk.de/)
 - [Kess-erziehen](https://www.kess-erziehen.de/elternkurse-kess/)
-- [Triple P - Positives Erziehungsprogramm](https://www.triplep.de/de-de/startseite/)
-- [Eltern AG](https://www.eltern-ag.de/)
-- [Deutscher Kinderschutzbund - Elternkurse](https://www.dksb.de/de/angebote-fuer-eltern/) 
+- [Triple P - Positives Erziehungsprogramm](https://www.triplep-eltern.de/de-de/triple-p/)
+- [MAPP-Empowerment (ehem. Eltern AG)](https://www.mapp-empowerment.de/)
+- [DKSB - Starke Eltern Starke Kinder](https://kinderschutzbund.de/sesk/)
+- [STEP - Systematisches Training für Eltern und Pädagogen](https://www.instep-online.de/)
+- [DRK Elterncampus](https://drk-elterncampus.de)

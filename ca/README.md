@@ -27,31 +27,32 @@ sobre les millors pràctiques i metodologies de criança, en termes generals, se
 
 # Recursos
 - [Criatures - Diari Ara](https://criatures.ara.cat/)
-- [Criar amb Seny](https://www.criarambseny.com/)
-- [Associació Catalana de Llevadores](https://www.llevadores.cat/blog/)
-- [Societat Catalana de Pediatria](https://www.scpediatria.cat/families.php)
-- [Petitàlia](https://petitalia.cat/)
 - [Criar.cat](https://criar.cat/)
-- [El Tatano](https://cavallfort.cat/el-tatano/)
-- [Famílies.cat](https://www.families.cat/)
+- [El Tatano - Cavall Fort](https://cavallfort.cat/el-tatano/)
+- [Miriam Tirado - Consultora de Criança Conscient](https://www.miriamtirado.com/ca/)
+- [Dona Llum - Associació Catalana per un Part Respectat](https://www.donallum.org/)
+- [Llars de Criança](https://llarsdecrianca.cat/)
+- [SocPetit.cat](https://www.socpetit.cat/)
+- [Gencat - Criança Positiva](https://dretssocials.gencat.cat/ca/ambits_tematics/families/crianca/)
+- [Eva Bach - Publicacions](https://www.evabach.cat/publicacions/)
+- [Associació Catalana de Llevadores](https://www.llevadores.cat/)
 
 ## Plataformes
 - [Reddit r/catalunya](https://www.reddit.com/r/catalunya/)
-- [Enfamilia.cat - Fòrum](https://enfamilia.cat/forum/)
-- [Fòrum Criar amb Seny](https://www.criarambseny.com/forum/)
-- [Fòrum Nadons](https://www.nadons.cat/forum/)
-- [Fòrum Tot Fills](https://www.totfills.cat/forum/)
+- [Societat Catalana de Pediatria - Famílies](https://www.scpediatria.org/?p=page/html/families)
 
 ## Llibres
-- [El meu fill no menja - Carlos González](https://www.grup62.cat/llibre-el-meu-fill-no-menja/129259)
-- [Estima'm quan menys m'ho mereixi... perquè és quan més ho necessito - Jaume Funes](https://www.grup62.cat/llibre-estimam-quan-menys-mho-mereixi-perque-es-quan-mes-ho-necessito/146548)
-- [El cervell de l'infant - Daniel J. Siegel](https://www.grup62.cat/llibre-el-cervell-de-linfant/272428)
-- [La vida secreta dels pares - Joan Carles Surís](https://www.grup62.cat/llibre-la-vida-secreta-dels-pares/269359)
-- [Educar millor - Carles Capdevila](https://www.grup62.cat/llibre-educar-millor/244264)
-- [Estima com t'agradaria ser estimat - M. Jesús Comellas](https://www.grup62.cat/llibre-estima-com-tagradaria-ser-estimat/136789)
-- [Educar sense cridar - Alba Castellví](https://www.grup62.cat/llibre-educar-sense-cridar/270865)
-- [Límits, amor i respecte - Catherine L'Ecuyer](https://www.grup62.cat/llibre-limits-amor-i-respecte/301906)
-- [Pares i fills - Joan Corbella](https://www.grup62.cat/llibre-pares-i-fills/30851)
+- [El meu nen no menja - Carlos González](https://www.grup62.cat/llibre-el-meu-nen-no-menja/94544)
+- [Estima'm quan menys m'ho mereixi... perquè és quan més ho necessito - Jaume Funes](https://www.grup62.cat/llibre-estimam-quan-menys-mho-mereixi-perque-es-quan-mes-ho-necessito/299226)
+- [El cervell del nen - Daniel J. Siegel](https://vienaedicions.com/book/el-cervell-del-nen)
+- [Educar millor - Carles Capdevila](https://www.arcadia-editorial.com/llibres/educar-millor-onze-converses-per-acompanyar-families-i-mestres/)
+- [T'escolto, t'entenc, t'estimo - M. Jesús Comellas](https://www.grup62.cat/llibre-tescolto-tentenc-testimo-i-per-aixo-teducare-sense-sentir-me-culpable/287678)
+- [Educar sense cridar - Alba Castellví](https://www.albacastellvi.cat/llibres/educar-sense-cridar/)
+- [Educar amb valors - Joan Corbella](https://www.grup62.cat/llibre-educar-amb-valors/345651)
+- [Enrabiats - Miriam Tirado](https://www.penguinllibres.com/tematiques/112498-libro-enrabiats-9788418033742)
+- [Sentir - Miriam Tirado](https://www.penguinllibres.com/tematiques/328243-libro-sentir-9788419259103)
+- [Mares i pares influencers - Eva Bach i Montse Jiménez](https://www.evabach.cat/mares-pares-influencers-eines-entendre-acompanyar-adolescents/?lang=ca)
+- [Sense dents i a mossegades - Juan Llorca i Melisa Gómez](https://www.penguinllibres.com/tematiques/112099-libro-sense-dents-i-a-mossegades-9788417627454)
 
 ## Tècniques
 ### Preescolar
@@ -61,15 +62,12 @@ sobre les millors pràctiques i metodologies de criança, en termes generals, se
 - HighScope
 - Filosofia d'aprenentatge basat en el coneixement
 - Cooperació
-- [Disciplina positiva](https://disciplinapositiva.cat/)
-- [Criança respectuosa](https://criança-respectuosa.cat/)
-- [Educació emocional](https://educacioemocional.cat/)
-- [Comunicació No Violenta (CNV)](https://comunicacioinoviolent.cat/)
+- Disciplina positiva
+- Criança respectuosa
+- Educació emocional
+- Comunicació No Violenta (CNV)
 
 ## Cursos
-- [Disciplina Positiva Catalunya](https://disciplinapositiva.cat/cursos/)
-- [Centre de Criança Respectuosa - Tallers](https://www.criançasana.cat/tallers/)
-- [Escola de Pares i Mares - FAPAC](https://www.fapac.cat/escola-de-pares-i-mares/)
-- [Associació de Mestres Rosa Sensat - Cursos per a pares](https://www.rosasensat.org/cursos-per-a-pares/)
-- [Aprendiendo Juntos - Cursos en Català](https://aprendiendojuntos.net/ca/cursos/)
-- [Escola d'Educació Emocional - Cursos per a pares](https://www.educacioemocional.cat/ca/cursos/) 
+- [BBVA Aprendemos Juntos (Català)](https://aprendemosjuntos.bbva.com/ca/)
+- [Somriure - Criança Respectuosa Barcelona](https://www.somriure-bcn.com/)
+- [Associació de Mestres Rosa Sensat - Formació](https://www.rosasensat.org/category/formacio/)

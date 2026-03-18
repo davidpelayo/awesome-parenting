@@ -30,28 +30,31 @@ sobre as melhores práticas e metodologias de parentalidade, em termos gerais, �
 - [Paizinho, Vírgula](https://paizinhovirgula.com/)
 - [Tempojunto](https://www.tempojunto.com/)
 - [Sociedade Brasileira de Pediatria](https://www.sbp.com.br/especial/pais-e-filhos/)
-- [Mil Dicas de Mãe](http://mildicasdemae.com.br/)
 - [Revista Pais&Filhos](https://paisefilhos.uol.com.br/)
-- [Canal do Pai](https://www.canaldopai.com.br/)
 - [Pediatria Descomplicada](https://pediatriadescomplicada.com.br/)
+- [Portal Lunetas](https://lunetas.com.br/)
+- [Fórum de Mães](https://forumdemaes.com/)
+- [Academia de Parentalidade Consciente](https://www.lifetraining.pt/adpc)
 
 ## Plataformas
 - [Reddit r/paternidade](https://www.reddit.com/r/paternidade/)
 - [Reddit r/brasil](https://www.reddit.com/r/brasil/)
-- [Fórum Bebê Mamãe](https://forum.bebemamaepapai.com.br/)
 - [Papo de Mãe - Comunidade](https://papodemae.uol.com.br/comunidade/)
-- [E-Família](https://efamilia.com.br/)
+- [De Mãe para Mãe - Fórum](https://demaeparamae.pt/forum)
 
 ## Livros
-- [Pai de Primeira Viagem - Marcos Piangers](https://www.amazon.com.br/Pai-primeira-viagem-Marcos-Piangers/dp/8543105102)
-- [O Pai da Criança - Alexandre Coimbra Amaral](https://www.amazon.com.br/Pai-Crian%C3%A7a-Alexandre-Coimbra-Amaral/dp/8501115274)
+- [O Papai é Pop - Marcos Piangers](https://www.goodreads.com/book/show/25882746-o-papai-pop)
 - [O Bebê do Amanhã - Michel Odent](https://www.amazon.com.br/Beb%C3%AA-Amanh%C3%A3-Michel-Odent/dp/8532309526)
 - [O que Esperar Quando Você Está Esperando - Heidi Murkoff](https://www.amazon.com.br/Que-Esperar-Quando-Voc%C3%AA-Esperando/dp/8501112321)
-- [Educar para Crescer - Içami Tiba](https://www.amazon.com.br/Quem-ama-educa-definitivo-relacionamento/dp/8501067539)
-- [A Parentalidade Positiva - Bernie Rodrigues](https://www.amazon.com.br/Parentalidade-Positiva-Transforma-Educação-Filhos/dp/8542219872)
-- [Cérebro do Bebê - Daniel J. Siegel](https://www.amazon.com.br/cérebro-bebê-Daniel-Siegel/dp/8578813081)
-- [O Poder da Conexão - Laura Markham](https://www.amazon.com.br/poder-conex%C3%A3o-parentalidade-sem-gritos/dp/8584391231)
+- [Quem Ama, Educa! - Içami Tiba](https://www.amazon.com.br/Quem-Ama-Educa-Icami-Tiba/dp/8573123826)
+- [O Cérebro da Criança - Daniel J. Siegel](https://www.amazon.com.br/c%C3%A9rebro-crian%C3%A7a-estrat%C3%A9gias-revolucion%C3%A1rias-desenvolvimento/dp/8584440739)
 - [Pais Brilhantes, Professores Fascinantes - Augusto Cury](https://www.amazon.com.br/Pais-brilhantes-professores-fascinantes-Augusto/dp/8575429272)
+- [Disciplina Positiva - Jane Nelsen](https://www.goodreads.com/book/show/41443134)
+- [Criação com Simplicidade - Kim John Payne](https://www.amazon.com.br/Cria%C3%A7%C3%A3o-com-simplicidade-John-Payne/dp/6587056466)
+- [Crianças Francesas Não Fazem Manha - Pamela Druckerman](https://www.amazon.com.br/Crian%C3%A7as-francesas-n%C3%A3o-fazem-manha/dp/8539004291)
+- [As Cinco Linguagens do Amor das Crianças - Gary Chapman](https://www.amazon.com.br/cinco-linguagens-amor-das-crian%C3%A7as/dp/8573251948)
+- [Limites sem Trauma - Tania Zagury](https://www.amazon.com.br/Limites-sem-trauma-Tania-Zagury/dp/6557121499)
+- [Então Você Vai Ser Papai - Peter Downey](https://www.amazon.com.br/Ent%C3%A3o-Voc%C3%AA-Vai-Ser-Papai/dp/8539501244)
 
 ## Técnicas
 ### Pré-escolar
@@ -63,13 +66,10 @@ sobre as melhores práticas e metodologias de parentalidade, em termos gerais, �
 - Cooperação
 - [Disciplina positiva](https://disciplinapositiva.com.br/)
 - [Parentalidade Consciente](https://parentalidadeconsciente.com.br/)
-- [Educação Emocional](https://educacaoemocional.com.br/)
-- [Comunicação Não Violenta (CNV)](https://www.comunicacaonaovio.org.br/)
+- Educação Emocional
+- Comunicação Não Violenta (CNV)
 
 ## Cursos
-- [Instituto Disciplina Positiva Brasil](https://disciplinapositiva.com.br/cursos/)
-- [Instituto da Família](https://institutodafamilia.com.br/cursos/)
-- [Paizinho, Vírgula - Cursos](https://paizinhovirgula.com/cursos/)
-- [Bebê Vida - Academia de Pais](https://bebevida.com/academia-de-pais/)
-- [Papo de Mãe - Escola](https://papodemae.uol.com.br/escola/)
-- [Escola de Pais do Brasil](https://www.escoladepais.org.br/) 
+- [Escola da Educação Positiva](https://escoladaeducacaopositiva.com.br/)
+- [Filosofia Positiva - Certificações](https://filosofiapositiva.com.br/certificacoes/pais-e-profissionais-da-saude/)
+- [EPEP - Escola de Parentalidade e Educação Positivas](https://parentalidadepositiva.com/)

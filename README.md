@@ -31,6 +31,10 @@ Getting different opinions, resources and books from other parents' recommendati
 - [Fatherly - Parenting, news and advice for dads](https://www.fatherly.com/)
 - [Dad.info - Support for fathers](https://dad.info/)
 - [Fathers.com - The National Center for Fathering](https://fathers.com/)
+- [HealthyChildren.org - American Academy of Pediatrics](https://www.healthychildren.org/)
+- [The Bump](https://www.thebump.com/)
+- [PBS Parents](https://www.pbs.org/parents/)
+- [Parenting Science](https://parentingscience.com/)
 
 ## Platforms
 - [parenting.stackexchange.com](https://parenting.stackexchange.com/)
@@ -52,6 +56,11 @@ Getting different opinions, resources and books from other parents' recommendati
 - [How to Talk so Kids Will Listen. And Listen So Kids Will Talk](https://www.goodreads.com/book/show/769016.How_to_Talk_So_Kids_Will_Listen_Listen_So_Kids_Will_Talk)
 - [Smart But Scattered](https://www.goodreads.com/book/show/6053700-smart-but-scattered)
 - [Parent Effectiveness Training](https://www.goodreads.com/book/show/165548.Parent_Effectiveness_Training)
+- [The Whole-Brain Child - Daniel J. Siegel](https://www.goodreads.com/book/show/10353369-the-whole-brain-child)
+- [No-Drama Discipline - Daniel J. Siegel](https://www.goodreads.com/book/show/40873423-no-drama-discipline)
+- [Simplicity Parenting - Kim John Payne](https://www.goodreads.com/book/show/6129974-simplicity-parenting)
+- [The Anxious Generation - Jonathan Haidt](https://www.goodreads.com/book/show/171681821-the-anxious-generation)
+- [Siblings Without Rivalry - Adele Faber & Elaine Mazlish](https://www.goodreads.com/book/show/12816644-siblings-without-rivalry)
 
 ## Techniques
 ### Preschool
@@ -79,3 +88,6 @@ Getting different opinions, resources and books from other parents' recommendati
 - [Scientific Secrets for Raising Kids Who Thrive](https://www.thegreatcourses.com/courses/scientific-secrets-for-raising-kids-who-thrive.html)
 - [Positive Parenting Solutions](https://www.positiveparentingsolutions.com/)
 - [Coursera - Everyday Parenting: The ABCs of Child Rearing](https://www.coursera.org/learn/everyday-parenting)
+- [Love and Logic - Online Courses for Parents](https://www.loveandlogic.com/collections/online-courses-for-parents)
+- [Active Parenting - Online Parenting Classes](https://activeparenting.com/for-parents/for-parents-online-parenting-classes/)
+- [edX - Parenting Courses](https://www.edx.org/learn/parenting)

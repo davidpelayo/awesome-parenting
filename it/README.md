@@ -28,30 +28,38 @@ sulle migliori pratiche e metodologie genitoriali, in termini generali, è sempr
 # Risorse
 - [Nostrofiglio.it](https://www.nostrofiglio.it/)
 - [Bimbi Sani e Belli](https://www.bimbisaniebelli.it/)
-- [Quanti Modi di Essere Padre](https://www.benedettociarcià.com/)
-- [Società Italiana di Pediatria](https://sip.it/area-genitori/)
-- [Io e il mio bambino](https://www.ioeilmiobambino.it/)
-- [Family Life](https://www.familylife.it/)
+- [Società Italiana di Pediatria - Genitori](https://sip.it/genitori/)
 - [Pianeta Mamma](https://www.pianetamamma.it/)
 - [Associazione Italiana Genitori](https://www.age.it/)
+- [Uppa - Un Pediatra Per Amico](https://www.uppa.it/)
+- [MOIGE - Movimento Italiano Genitori](https://www.moige.it/)
+- [Il Bambino Naturale](https://www.bambinonaturale.it/)
+- [MammaePapa.it](https://www.mammaepapa.it/)
+- [Mammeonline](https://www.mammeonline.net/)
+- [QuiMamme (già Io e il mio bambino)](https://quimamme.corriere.it/)
 
 ## Piattaforme
 - [Reddit r/italy](https://www.reddit.com/r/italy/)
-- [Forum Alfemminile - Bambini](https://forum.alfemminile.com/forum/maternita-f23)
-- [Al Femminile - Forum Bambini](https://forum.alfemminile.com/forum/maternita-f23)
-- [Forum Nostrofiglio](https://www.nostrofiglio.it/forum)
-- [Forum Gravidanza Online](https://www.gravidanzaonline.it/forum/)
+- [Forum Alfemminile - Maternità](https://forum.alfemminile.com/forum/maternita-f23)
+- [Parentube](https://www.parentube.it/)
+- [Genitori.it](https://www.genitori.it/)
+- [Forum Nazionale delle Associazioni Familiari](https://www.forumfamiglie.org/)
 
 ## Libri
 - [Diventare Padre - Alessandra Bortolotti](https://www.amazon.it/Diventare-padre-Alessandra-Bortolotti/dp/8867730584/)
-- [Padre ricco, padre povero - Robert T. Kiyosaki](https://www.amazon.it/Padre-ricco-povero-quello-insegnano/dp/8885720560/)
-- [Il mestiere di papà - Robert Richter e Eberhard Schäfer](https://www.amazon.it/mestiere-pap%C3%A0-Robert-Richter/dp/8809859073/)
+- [Il manuale del papà - Robert Richter e Eberhard Schäfer](https://www.amazon.it/manuale-pap%C3%A0-quello-sapere-gravidanza/dp/8848119069)
 - [Il papà in attesa - Gianluca Daffi](https://www.amazon.it/pap%C3%A0-attesa-futuri-pap%C3%A0-responsabili/dp/8858043057/)
-- [Il metodo danese per crescere bambini felici - Jessica Joelle Alexander](https://www.amazon.it/metodo-danese-crescere-bambini-felici/dp/8822707508/)
+- [Il metodo danese per crescere bambini felici - Jessica Joelle Alexander](https://www.amazon.it/metodo-danese-crescere-bambini-genitori/dp/8854197157)
 - [Lo sviluppo della mente - Daniel Siegel](https://www.amazon.it/sviluppo-della-mente-Daniel-Siegel/dp/8870786161/)
 - [Bebè a costo zero - Giorgia Cozza](https://www.amazon.it/Beb%C3%A8-costo-zero-Giorgia-Cozza/dp/8865800577/)
-- [Il bambino da 0 a 3 anni - T. Berry Brazelton](https://www.amazon.it/bambino-anni-Guida-sviluppo-fisico/dp/8817108685/)
+- [Il bambino da 0 a 3 anni - T. Berry Brazelton](https://www.amazon.it/bambino-sviluppo-fisico-emotivo-comportamentale/dp/8817027863)
 - [Genitori efficaci - Thomas Gordon](https://www.amazon.it/Genitori-efficaci-Thomas-Gordon/dp/8856301075/)
+- [Come parlare perché i bambini ti ascoltino - Adele Faber, Elaine Mazlish](https://www.amazon.it/parlare-bambini-ascoltino-ascoltare-parlino/dp/8804728728)
+- [Urlare non serve a nulla - Daniele Novara](https://www.amazon.it/Gestire-conflitti-ascoltare-guidarli-crescita/dp/8817076929)
+- [E se poi prende il vizio? - Alessandra Bortolotti](https://www.amazon.it/Pregiudizi-culturali-bisogni-irrinunciabili-bambini/dp/8895177754)
+- [Il bambino è competente - Jesper Juul](https://www.amazon.it/bambino-competente-Valori-conoscenze-famiglia/dp/8807170566)
+- [I no che aiutano a crescere - Asha Phillips](https://www.amazon.it/I-no-che-aiutano-crescere/dp/8807882671)
+- [Fate i bravi! - Lucia Rizzi](https://www.amazon.it/famosa-dItalia-consigli-diventare-genitori/dp/881701964X)
 
 ## Tecniche
 ### Prescolare
@@ -61,15 +69,14 @@ sulle migliori pratiche e metodologie genitoriali, in termini generali, è sempr
 - HighScope
 - Filosofia dell'apprendimento basata sulla conoscenza
 - Cooperazione
-- [Disciplina positiva](https://www.disciplinapositiva.it/)
-- [Genitorialità consapevole](https://www.genitorialitaconsapevole.com/)
-- [Educazione emotiva](https://www.educazioneemotiva.it/)
-- [Comunicazione Non Violenta (CNV)](https://www.cnvcommunication.com/it/)
+- Disciplina positiva
+- Genitorialità consapevole
+- Educazione emotiva
+- Comunicazione Non Violenta (CNV)
 
 ## Corsi
-- [Centro Psicopedagogico per l'educazione e la gestione dei conflitti](https://cppp.it/corsi-per-genitori/)
-- [Genitori Coach](https://www.genitoricoach.it/corsi/)
-- [Istituto di Psicologia Analitica e Psicodramma - Corsi per genitori](https://www.ipap-jung.eu/corsi-per-genitori/)
-- [Il Melograno - Centro Informazione Maternità e Nascita](https://www.melograno.org/corsi-online-genitori/)
-- [Scuola Italiana di Disciplina Positiva](https://www.disciplinapositiva.it/corsi/)
-- [Associazione Italiana Genitori - Scuola per Genitori](https://www.age.it/scuola-per-genitori/) 
+- [Scuola Genitori - Metodo Daniele Novara](https://www.metododanielenovara.it/scuola-genitori/)
+- [Erickson - Parent Training](https://www.erickson.it/it/parent-training)
+- [IGEA CPS - Corsi Genitorialità](https://www.igeacps.it/offerta-corsi-genitorialita-e-la-coppia/)
+- [Percorsi Formativi 06 - Corsi per Genitori](https://percorsiformativi06.it/formazione-per-genitori/)
+- [Genitore Informato](https://genitoreinformato.com/)
