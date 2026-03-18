@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome Parenting - Multilingual Parenting Resources</title>
+<meta name="description" content="The first worldwide collaborative gathering of fatherhood resources. Curated parenting books, resources, platforms, techniques and courses in 7 languages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --cream:#FEF9F2;--cream-deep:#F5EDE0;--terracotta:#BF5B3F;--terracotta-light:#D4845E;
+  --sage:#7B8C6A;--sage-light:#A3B18A;--dark:#2A2520;--warm-gray:#5C534A;
+  --sand:#E8DDD0;--blush:#F0DDD4;--text:#3A3330;--text-light:#7A716A;
+  --radius:12px;--radius-lg:20px;
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{
+  font-family:'DM Sans',system-ui,sans-serif;color:var(--text);
+  background:var(--cream);line-height:1.7;overflow-x:hidden;
+}
+h1,h2,h3,h4{font-family:'Fraunces',serif;font-weight:600;line-height:1.25;letter-spacing:-0.02em}
+
+/* Grain overlay */
+body::before{
+  content:'';position:fixed;top:0;left:0;width:100%;height:100%;
+  pointer-events:none;z-index:9999;opacity:0.03;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* -------- HERO -------- */
+.hero{
+  min-height:90vh;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;text-align:center;padding:3rem 2rem;
+  position:relative;overflow:hidden;
+  background:linear-gradient(160deg,var(--cream) 0%,var(--blush) 40%,var(--sand) 70%,var(--cream-deep) 100%);
+}
+.hero::before{
+  content:'';position:absolute;top:-20%;right:-10%;width:60vw;height:60vw;
+  border-radius:50%;background:radial-gradient(circle,rgba(191,91,63,0.08) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero::after{
+  content:'';position:absolute;bottom:-15%;left:-5%;width:45vw;height:45vw;
+  border-radius:50%;background:radial-gradient(circle,rgba(123,140,106,0.07) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  background:rgba(191,91,63,0.08);border:1px solid rgba(191,91,63,0.15);
+  border-radius:100px;padding:0.4rem 1.2rem;font-size:0.8rem;
+  font-weight:500;color:var(--terracotta);letter-spacing:0.06em;
+  text-transform:uppercase;margin-bottom:2rem;
+  animation:fadeDown 0.8s ease both;
+}
+.hero-title{
+  font-size:clamp(2.8rem,7vw,5.5rem);font-weight:700;color:var(--dark);
+  margin-bottom:1rem;max-width:800px;
+  animation:fadeDown 0.8s 0.15s ease both;
+}
+.hero-title em{
+  font-style:italic;font-weight:300;color:var(--terracotta);
+}
+.hero-sub{
+  font-size:clamp(1rem,2vw,1.25rem);color:var(--warm-gray);
+  max-width:560px;margin-bottom:3rem;font-weight:300;
+  animation:fadeDown 0.8s 0.3s ease both;
+}
+.hero-stats{
+  display:flex;gap:3rem;flex-wrap:wrap;justify-content:center;
+  animation:fadeDown 0.8s 0.45s ease both;
+}
+.hero-stat{text-align:center}
+.hero-stat-num{font-family:'Fraunces',serif;font-size:2.2rem;font-weight:700;color:var(--terracotta)}
+.hero-stat-label{font-size:0.78rem;color:var(--text-light);text-transform:uppercase;letter-spacing:0.08em;font-weight:500}
+.scroll-hint{
+  position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);
+  display:flex;flex-direction:column;align-items:center;gap:0.3rem;
+  color:var(--text-light);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;
+  animation:fadeDown 0.8s 0.6s ease both;
+}
+.scroll-hint-line{width:1px;height:28px;background:var(--terracotta);animation:scrollPulse 2s ease-in-out infinite}
+
+/* -------- LANGUAGE NAV -------- */
+.lang-nav-wrap{
+  position:sticky;top:0;z-index:100;
+  background:rgba(254,249,242,0.85);backdrop-filter:blur(20px);
+  border-bottom:1px solid rgba(0,0,0,0.06);
+  transition:box-shadow 0.3s;
+}
+.lang-nav-wrap.scrolled{box-shadow:0 4px 30px rgba(0,0,0,0.06)}
+.lang-nav{
+  max-width:1200px;margin:0 auto;display:flex;align-items:center;
+  gap:0.3rem;padding:0.8rem 2rem;overflow-x:auto;
+  scrollbar-width:none;
+}
+.lang-nav::-webkit-scrollbar{display:none}
+.lang-nav-logo{
+  font-family:'Fraunces',serif;font-weight:700;font-size:1.1rem;
+  color:var(--dark);white-space:nowrap;margin-right:1.5rem;
+  flex-shrink:0;
+}
+.lang-btn{
+  border:none;background:none;font-family:'DM Sans',sans-serif;
+  font-size:0.82rem;font-weight:500;color:var(--text-light);
+  padding:0.5rem 1rem;border-radius:100px;cursor:pointer;
+  transition:all 0.25s;white-space:nowrap;flex-shrink:0;
+}
+.lang-btn:hover{color:var(--dark);background:rgba(0,0,0,0.04)}
+.lang-btn.active{background:var(--terracotta);color:white}
+.lang-btn .flag{margin-right:0.35rem;font-style:normal}
+.gh-link{
+  margin-left:auto;flex-shrink:0;
+  display:inline-flex;align-items:center;gap:0.4rem;
+  font-size:0.78rem;font-weight:500;color:var(--text-light);
+  text-decoration:none;padding:0.45rem 0.9rem;border-radius:100px;
+  border:1px solid rgba(0,0,0,0.1);transition:all 0.25s;
+}
+.gh-link:hover{border-color:var(--terracotta);color:var(--terracotta)}
+.gh-link svg{width:16px;height:16px}
+
+/* -------- MAIN CONTENT -------- */
+.main{max-width:1200px;margin:0 auto;padding:0 2rem 6rem}
+.section{padding:4rem 0}
+.section+.section{border-top:1px solid rgba(0,0,0,0.06)}
+.section-header{margin-bottom:2.5rem}
+.section-label{
+  font-size:0.72rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:0.12em;color:var(--terracotta);margin-bottom:0.5rem;
+}
+.section-title{font-size:clamp(1.6rem,3vw,2.2rem);color:var(--dark)}
+.section-desc{color:var(--text-light);margin-top:0.5rem;max-width:600px;font-size:0.95rem}
+
+/* -------- CARDS GRID -------- */
+.cards{display:grid;gap:1rem}
+.cards--resources{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.cards--books{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.cards--techniques{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+
+.card{
+  background:white;border-radius:var(--radius);padding:1.3rem 1.5rem;
+  text-decoration:none;color:inherit;display:flex;align-items:flex-start;gap:1rem;
+  border:1px solid rgba(0,0,0,0.05);
+  transition:transform 0.3s cubic-bezier(0.2,0.9,0.3,1),box-shadow 0.3s,border-color 0.3s;
+  position:relative;overflow:hidden;
+}
+.card::before{
+  content:'';position:absolute;top:0;left:0;width:3px;height:100%;
+  background:var(--terracotta);transform:scaleY(0);transform-origin:bottom;
+  transition:transform 0.3s cubic-bezier(0.2,0.9,0.3,1);
+}
+.card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 40px rgba(0,0,0,0.06);
+  border-color:rgba(191,91,63,0.15);
+}
+.card:hover::before{transform:scaleY(1)}
+.card-icon{
+  width:40px;height:40px;border-radius:10px;display:flex;
+  align-items:center;justify-content:center;flex-shrink:0;
+  font-size:1.1rem;
+}
+.card-icon--resource{background:rgba(191,91,63,0.08);color:var(--terracotta)}
+.card-icon--book{background:rgba(123,140,106,0.1);color:var(--sage)}
+.card-icon--platform{background:rgba(212,132,94,0.1);color:var(--terracotta-light)}
+.card-icon--course{background:rgba(163,177,138,0.12);color:var(--sage)}
+.card-icon--technique{background:rgba(42,37,32,0.06);color:var(--dark)}
+
+.card-body{min-width:0}
+.card-title{font-family:'DM Sans',sans-serif;font-weight:600;font-size:0.9rem;line-height:1.35;color:var(--dark)}
+.card-meta{font-size:0.78rem;color:var(--text-light);margin-top:0.15rem}
+
+/* technique cards - smaller */
+.card--technique{padding:1rem 1.2rem}
+.card--technique .card-title{font-size:0.85rem}
+
+/* -------- TAB CONTENT -------- */
+.lang-content{display:none}
+.lang-content.active{display:block;animation:fadeIn 0.4s ease}
+
+/* -------- FOOTER -------- */
+footer{
+  text-align:center;padding:3rem 2rem;
+  border-top:1px solid rgba(0,0,0,0.06);
+  color:var(--text-light);font-size:0.82rem;
+}
+footer a{color:var(--terracotta);text-decoration:none}
+footer a:hover{text-decoration:underline}
+
+/* -------- REVEAL -------- */
+.reveal{opacity:0;transform:translateY(20px);transition:all 0.6s cubic-bezier(0.2,0.9,0.3,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+/* -------- ANIMATIONS -------- */
+@keyframes fadeDown{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes scrollPulse{0%,100%{opacity:0.3;transform:scaleY(0.6)}50%{opacity:1;transform:scaleY(1)}}
+
+/* -------- RESPONSIVE -------- */
+@media(max-width:768px){
+  .hero{min-height:80vh;padding:2rem 1.5rem}
+  .hero-stats{gap:2rem}
+  .main{padding:0 1.2rem 4rem}
+  .lang-nav{padding:0.6rem 1rem}
+  .lang-nav-logo{display:none}
+  .cards--resources,.cards--books{grid-template-columns:1fr}
+  .section{padding:3rem 0}
+  .gh-link span{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ====== HERO ====== -->
+<header class="hero">
+  <div class="hero-badge">Open Source &middot; Collaborative &middot; Multilingual</div>
+  <h1 class="hero-title">Awesome<br><em>Parenting</em></h1>
+  <p class="hero-sub">The first worldwide collaborative gathering of parenting resources. Curated books, guides, communities and courses in 7 languages.</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="hero-stat-num">7</div><div class="hero-stat-label">Languages</div></div>
+    <div class="hero-stat"><div class="hero-stat-num" id="total-resources">0</div><div class="hero-stat-label">Resources</div></div>
+    <div class="hero-stat"><div class="hero-stat-num" id="total-books">0</div><div class="hero-stat-label">Books</div></div>
+  </div>
+  <div class="scroll-hint"><span>Explore</span><div class="scroll-hint-line"></div></div>
+</header>
+
+<!-- ====== LANGUAGE NAV ====== -->
+<nav class="lang-nav-wrap" id="langNav">
+  <div class="lang-nav">
+    <div class="lang-nav-logo">A/P</div>
+    <button class="lang-btn active" data-lang="en"><i class="flag">&#127468;&#127463;</i> English</button>
+    <button class="lang-btn" data-lang="es"><i class="flag">&#127466;&#127480;</i> Espa&ntilde;ol</button>
+    <button class="lang-btn" data-lang="pt"><i class="flag">&#127463;&#127479;</i> Portugu&ecirc;s</button>
+    <button class="lang-btn" data-lang="fr"><i class="flag">&#127467;&#127479;</i> Fran&ccedil;ais</button>
+    <button class="lang-btn" data-lang="it"><i class="flag">&#127470;&#127481;</i> Italiano</button>
+    <button class="lang-btn" data-lang="ca"><i class="flag">&#127466;&#127480;</i> Catal&agrave;</button>
+    <button class="lang-btn" data-lang="de"><i class="flag">&#127465;&#127466;</i> Deutsch</button>
+    <a class="gh-link" href="https://github.com/davidpelayo/awesome-parenting" target="_blank" rel="noopener">
+      <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      <span>GitHub</span>
+    </a>
+  </div>
+</nav>
+
+<!-- ====== CONTENT ====== -->
+<main class="main" id="content"></main>
+
+<footer>
+  <p>Made with care by <a href="https://github.com/davidpelayo">David Pelayo</a> &amp; contributors.</p>
+  <p style="margin-top:0.3rem;opacity:0.7">Contribute on <a href="https://github.com/davidpelayo/awesome-parenting">GitHub</a></p>
+</footer>
+
+<script>
+// ============================================================
+// DATA — all content from the 7 language READMEs
+// ============================================================
+const DATA = {
+en: {
+  resources: [
+    {name:"Ask HN: Good parenting documentation?",url:"https://news.ycombinator.com/item?id=17023693"},
+    {name:"Janet Lansbury - Elevating Child Care",url:"http://www.janetlansbury.com/"},
+    {name:"Hand in Hand Parenting",url:"https://www.handinhandparenting.org/"},
+    {name:"Fatherly",url:"https://www.fatherly.com/"},
+    {name:"Dad.info",url:"https://dad.info/"},
+    {name:"Fathers.com",url:"https://fathers.com/"},
+    {name:"HealthyChildren.org (AAP)",url:"https://www.healthychildren.org/"},
+    {name:"The Bump",url:"https://www.thebump.com/"},
+    {name:"PBS Parents",url:"https://www.pbs.org/parents/"},
+    {name:"Parenting Science",url:"https://parentingscience.com/"}
+  ],
+  platforms: [
+    {name:"Parenting Stack Exchange",url:"https://parenting.stackexchange.com/"},
+    {name:"Winnie",url:"https://winnie.com/"},
+    {name:"Reddit r/daddit",url:"https://www.reddit.com/r/daddit/"},
+    {name:"Reddit r/NewParents",url:"https://www.reddit.com/r/NewParents/"},
+    {name:"BabyCenter",url:"https://www.babycenter.com/"},
+    {name:"What to Expect",url:"https://www.whattoexpect.com/"}
+  ],
+  books: [
+    {name:"Between Parent and Child",author:"H. G. Ginott",url:"https://www.goodreads.com/book/show/256004.Between_Parent_and_Child"},
+    {name:"The Pocket Parent",author:"G. Reichlin & C. Winkler",url:"https://www.goodreads.com/book/show/581287.The_Pocket_Parent"},
+    {name:"The Gardener and the Carpenter",author:"Alison Gopnik",url:"https://www.goodreads.com/book/show/28595855-the-gardener-and-the-carpenter"},
+    {name:"Raising An Emotionally Intelligent Child",author:"John Gottman",url:"https://www.goodreads.com/book/show/213186.Raising_An_Emotionally_Intelligent_Child"},
+    {name:"And Baby Makes Three",author:"John Gottman",url:"https://www.goodreads.com/book/show/16083932-and-baby-makes-three"},
+    {name:"How to Talk so Kids Will Listen",author:"Adele Faber & E. Mazlish",url:"https://www.goodreads.com/book/show/769016.How_to_Talk_So_Kids_Will_Listen_Listen_So_Kids_Will_Talk"},
+    {name:"Smart But Scattered",author:"Peg Dawson",url:"https://www.goodreads.com/book/show/6053700-smart-but-scattered"},
+    {name:"Parent Effectiveness Training",author:"Thomas Gordon",url:"https://www.goodreads.com/book/show/165548.Parent_Effectiveness_Training"},
+    {name:"The Whole-Brain Child",author:"Daniel J. Siegel",url:"https://www.goodreads.com/book/show/10353369-the-whole-brain-child"},
+    {name:"No-Drama Discipline",author:"Daniel J. Siegel",url:"https://www.goodreads.com/book/show/40873423-no-drama-discipline"},
+    {name:"Simplicity Parenting",author:"Kim John Payne",url:"https://www.goodreads.com/book/show/6129974-simplicity-parenting"},
+    {name:"The Anxious Generation",author:"Jonathan Haidt",url:"https://www.goodreads.com/book/show/171681821-the-anxious-generation"},
+    {name:"Siblings Without Rivalry",author:"Adele Faber & E. Mazlish",url:"https://www.goodreads.com/book/show/12816644-siblings-without-rivalry"},
+    {name:"Selfish Reasons to Have More Kids",author:"Bryan Caplan",url:"https://www.goodreads.com/book/show/10266902-selfish-reasons-to-have-more-kids"},
+    {name:"The Well-Behaved Child",author:"John Rosemond",url:"https://www.goodreads.com/book/show/6908356-the-well-behaved-child"},
+    {name:"The Rational Male - Positive Masculinity",author:"Rollo Tomassi",url:"https://www.goodreads.com/book/show/35832854-the-rational-male---positive-masculinity"}
+  ],
+  techniques: [
+    {name:"Montessori",url:"https://en.wikipedia.org/wiki/Montessori_education"},
+    {name:"Waldorf",url:"https://en.wikipedia.org/wiki/Waldorf_education"},
+    {name:"Reggio Emilia",url:"https://en.wikipedia.org/wiki/Reggio_Emilia_approach"},
+    {name:"HighScope"},{name:"Bank Street"},{name:"Creative Curriculum"},{name:"Cooperative"},
+    {name:"Special Time",url:"https://www.handinhandparenting.org/article/how-special-time-makes-children-content/"},
+    {name:"Staylistening",url:"https://www.handinhandparenting.org/article/what-to-say-during-staylistening/"},
+    {name:"Positive Discipline",url:"https://www.positivediscipline.com/"},
+    {name:"RIE Parenting",url:"https://www.rie.org/"},
+    {name:"Attachment Parenting",url:"https://www.attachmentparenting.org/"},
+    {name:"Growth Mindset Parenting",url:"https://www.mindsetworks.com/parents/growth-mindset-parenting"},
+    {name:"Project Based Education",url:"https://en.wikipedia.org/wiki/Project-based_learning"},
+    {name:"Alternative Education",url:"https://en.wikipedia.org/wiki/Alternative_education"}
+  ],
+  courses: [
+    {name:"Scientific Secrets for Raising Kids Who Thrive",url:"https://www.thegreatcourses.com/courses/scientific-secrets-for-raising-kids-who-thrive.html"},
+    {name:"Positive Parenting Solutions",url:"https://www.positiveparentingsolutions.com/"},
+    {name:"Coursera - Everyday Parenting",url:"https://www.coursera.org/learn/everyday-parenting"},
+    {name:"Love and Logic",url:"https://www.loveandlogic.com/collections/online-courses-for-parents"},
+    {name:"Active Parenting",url:"https://activeparenting.com/for-parents/for-parents-online-parenting-classes/"},
+    {name:"edX - Parenting Courses",url:"https://www.edx.org/learn/parenting"}
+  ]
+},
+es: {
+  resources: [
+    {name:"Ser Padres",url:"https://www.serpadres.es/"},{name:"Educar es Todo",url:"https://educarestodo.com/"},
+    {name:"Club de Malasmadres",url:"https://clubdemalasmadres.com/"},{name:"Beb\u00e9s y m\u00e1s",url:"https://www.bebesymas.com/"},
+    {name:"Asociaci\u00f3n Espa\u00f1ola de Pediatr\u00eda",url:"https://www.aeped.es/"},{name:"Mi beb\u00e9 y yo",url:"https://mibebeyyo.elmundo.es/"},
+    {name:"Gu\u00eda Infantil",url:"https://www.guiainfantil.com/"},{name:"Crianza Natural",url:"https://www.crianzanatural.com/"},
+    {name:"El Parto es Nuestro",url:"https://www.elpartoesnuestro.es"},{name:"Familias en Positivo",url:"https://familiasenpositivo.org/"},
+    {name:"Luc\u00eda, mi pediatra",url:"https://www.luciamipediatra.com/"},{name:"Miriam Tirado",url:"https://www.miriamtirado.com/"},
+    {name:"Espacio Crianza",url:"https://espaciocrianza.com/"}
+  ],
+  platforms: [
+    {name:"Criar con Sentido Com\u00fan",url:"https://www.criarconsentidocomun.com/comunidad/"},
+    {name:"Madresfera",url:"https://madresfera.com/"},{name:"Pap\u00e1s e hijos",url:"https://www.papasehijos.com/"}
+  ],
+  books: [
+    {name:"Baby Led Weaning",author:"Gill Rapley",url:"https://www.goodreads.com/book/show/3386101-baby-led-weaning"},
+    {name:"B\u00e9same mucho",author:"Carlos Gonz\u00e1lez",url:"https://www.goodreads.com/book/show/6924186-b-same-mucho"},
+    {name:"El Beb\u00e9 es un Mam\u00edfero",author:"Michel Odent",url:"https://www.goodreads.com/book/show/1349670.El_beb_es_un_mam_fero"},
+    {name:"Comer, amar, mamar",author:"Carlos Gonz\u00e1lez",url:"https://www.goodreads.com/book/show/16422269-comer-amar-mamar"},
+    {name:"Mi ni\u00f1o no me come",author:"Carlos Gonz\u00e1lez",url:"https://www.goodreads.com/book/show/22405839"},
+    {name:"Un regalo para toda la vida",author:"Carlos Gonz\u00e1lez",url:"https://www.goodreads.com/book/show/28413386-un-regalo-para-toda-la-vida"},
+    {name:"Somos la leche",author:"Alba Padr\u00f3",url:"https://www.goodreads.com/es/book/show/36257561-somos-la-leche-edici-n-revisada-y-actualizada"},
+    {name:"El cerebro del ni\u00f1o",author:"Daniel J. Siegel",url:"https://www.goodreads.com/book/show/52521778-el-cerebro-del-ni-o"},
+    {name:"Disciplina sin l\u00e1grimas",author:"Daniel J. Siegel",url:"https://www.goodreads.com/book/show/58443385-disciplina-sin-l-grimas"},
+    {name:"Criar sin complejos",author:"M. A. Salmer\u00f3n Ruiz",url:"https://www.goodreads.com/book/show/44567944-criar-sin-complejos"},
+    {name:"El cerebro del ni\u00f1o explicado a los padres",author:"\u00c1lvaro Bilbao",url:"https://www.goodreads.com/book/show/26879065-el-cerebro-del-ni-o-explicado-a-los-padres"},
+    {name:"Dormir sin l\u00e1grimas",author:"Rosa Jov\u00e9",url:"https://www.goodreads.com/book/show/19165965-dormir-sin-l-grimas"},
+    {name:"La crianza feliz",author:"Rosa Jov\u00e9",url:"https://www.goodreads.com/book/show/15767596-la-crianza-feliz"},
+    {name:"Ni rabietas ni conflictos",author:"Rosa Jov\u00e9",url:"https://www.goodreads.com/book/show/11405178-ni-rabietas-ni-conflictos"},
+    {name:"El gran libro de Luc\u00eda, mi pediatra",author:"Luc\u00eda Gal\u00e1n",url:"https://www.goodreads.com/book/show/51018162-el-gran-libro-de-luc-a-mi-pediatra"},
+    {name:"Educar en el asombro",author:"Catherine L'Ecuyer",url:"https://www.goodreads.com/book/show/17789015-educar-en-el-asombro"},
+    {name:"Dar voz al ni\u00f1o",author:"Yvonne Laborda",url:"https://www.goodreads.com/book/show/46016172-dar-voz-al-ni-o"},
+    {name:"Hijos y padres felices",author:"Alberto Soler",url:"https://www.goodreads.com/book/show/36451927-hijos-y-padres-felices"},
+    {name:"Educar sin gritar",author:"Guillermo Ballenato",url:"https://www.goodreads.com/book/show/19186557-educar-sin-gritar"},
+    {name:"Durmiendo con tu beb\u00e9",author:"James J. McKenna",url:"https://www.goodreads.com/book/show/377681.Sleeping_with_Your_Baby"}
+  ],
+  techniques: [
+    {name:"Montessori",url:"https://es.wikipedia.org/wiki/M%C3%A9todo_Montessori"},
+    {name:"Waldorf",url:"https://es.wikipedia.org/wiki/Pedagog%C3%ADa_Waldorf"},
+    {name:"Reggio Emilia",url:"https://es.wikipedia.org/wiki/Reggio_Emilia"},
+    {name:"HighScope"},{name:"Disciplina positiva",url:"https://disciplinapositiva.com/"},
+    {name:"Comunicaci\u00f3n No Violenta",url:"https://www.comunicacionnoviolenta.com/"}
+  ],
+  courses: [
+    {name:"Escuela Bit\u00e1coras",url:"https://escuela.bitacoras.com/"},{name:"Escuela Babytribu",url:"https://escuelababytribu.com/"},
+    {name:"Criar con Sentido Com\u00fan - Cursos",url:"https://www.criarconsentidocomun.com/seminarios/"},
+    {name:"Infancia en Positivo",url:"https://infanciaenpositivo.com/"},
+    {name:"Instituto Yvonne Laborda",url:"https://www.institutoyvonnelaborda.com/formaciones"},
+    {name:"Padres Formados",url:"https://padresformados.es/courses/"},
+    {name:"Disciplina Positiva Lab School",url:"https://disciplinapositiva.education/"}
+  ]
+},
+pt: {
+  resources: [
+    {name:"Baby Center Brasil",url:"https://brasil.babycenter.com/"},{name:"Paizinho, V\u00edrgula",url:"https://paizinhovirgula.com/"},
+    {name:"Tempojunto",url:"https://www.tempojunto.com/"},{name:"Sociedade Brasileira de Pediatria",url:"https://www.sbp.com.br/especial/pais-e-filhos/"},
+    {name:"Revista Pais&Filhos",url:"https://paisefilhos.uol.com.br/"},{name:"Pediatria Descomplicada",url:"https://pediatriadescomplicada.com.br/"},
+    {name:"Portal Lunetas",url:"https://lunetas.com.br/"},{name:"F\u00f3rum de M\u00e3es",url:"https://forumdemaes.com/"},
+    {name:"Academia de Parentalidade Consciente",url:"https://www.lifetraining.pt/adpc"}
+  ],
+  platforms: [
+    {name:"Reddit r/paternidade",url:"https://www.reddit.com/r/paternidade/"},{name:"Reddit r/brasil",url:"https://www.reddit.com/r/brasil/"},
+    {name:"Papo de M\u00e3e",url:"https://papodemae.uol.com.br/comunidade/"},{name:"De M\u00e3e para M\u00e3e",url:"https://demaeparamae.pt/forum"}
+  ],
+  books: [
+    {name:"O Papai \u00e9 Pop",author:"Marcos Piangers",url:"https://www.goodreads.com/book/show/25882746-o-papai-pop"},
+    {name:"O Beb\u00ea do Amanh\u00e3",author:"Michel Odent",url:"https://www.amazon.com.br/Beb%C3%AA-Amanh%C3%A3-Michel-Odent/dp/8532309526"},
+    {name:"O que Esperar Quando Voc\u00ea Est\u00e1 Esperando",author:"Heidi Murkoff",url:"https://www.amazon.com.br/Que-Esperar-Quando-Voc%C3%AA-Esperando/dp/8501112321"},
+    {name:"Quem Ama, Educa!",author:"I\u00e7ami Tiba",url:"https://www.amazon.com.br/Quem-Ama-Educa-Icami-Tiba/dp/8573123826"},
+    {name:"O C\u00e9rebro da Crian\u00e7a",author:"Daniel J. Siegel",url:"https://www.amazon.com.br/c%C3%A9rebro-crian%C3%A7a-estrat%C3%A9gias-revolucion%C3%A1rias-desenvolvimento/dp/8584440739"},
+    {name:"Pais Brilhantes, Professores Fascinantes",author:"Augusto Cury",url:"https://www.amazon.com.br/Pais-brilhantes-professores-fascinantes-Augusto/dp/8575429272"},
+    {name:"Disciplina Positiva",author:"Jane Nelsen",url:"https://www.goodreads.com/book/show/41443134"},
+    {name:"Cria\u00e7\u00e3o com Simplicidade",author:"Kim John Payne",url:"https://www.amazon.com.br/Cria%C3%A7%C3%A3o-com-simplicidade-John-Payne/dp/6587056466"},
+    {name:"Crian\u00e7as Francesas N\u00e3o Fazem Manha",author:"Pamela Druckerman",url:"https://www.amazon.com.br/Crian%C3%A7as-francesas-n%C3%A3o-fazem-manha/dp/8539004291"},
+    {name:"As Cinco Linguagens do Amor das Crian\u00e7as",author:"Gary Chapman",url:"https://www.amazon.com.br/cinco-linguagens-amor-das-crian%C3%A7as/dp/8573251948"},
+    {name:"Limites sem Trauma",author:"Tania Zagury",url:"https://www.amazon.com.br/Limites-sem-trauma-Tania-Zagury/dp/6557121499"},
+    {name:"Ent\u00e3o Voc\u00ea Vai Ser Papai",author:"Peter Downey",url:"https://www.amazon.com.br/Ent%C3%A3o-Voc%C3%AA-Vai-Ser-Papai/dp/8539501244"}
+  ],
+  techniques: [
+    {name:"Montessori",url:"https://pt.wikipedia.org/wiki/M%C3%A9todo_Montessori"},
+    {name:"Waldorf",url:"https://pt.wikipedia.org/wiki/Pedagogia_Waldorf"},
+    {name:"Reggio Emilia",url:"https://pt.wikipedia.org/wiki/Abordagem_de_Reggio_Emilia"},
+    {name:"HighScope"},{name:"Disciplina positiva",url:"https://disciplinapositiva.com.br/"},
+    {name:"Parentalidade Consciente",url:"https://parentalidadeconsciente.com.br/"},
+    {name:"Comunica\u00e7\u00e3o N\u00e3o Violenta (CNV)"}
+  ],
+  courses: [
+    {name:"Escola da Educa\u00e7\u00e3o Positiva",url:"https://escoladaeducacaopositiva.com.br/"},
+    {name:"Filosofia Positiva - Certifica\u00e7\u00f5es",url:"https://filosofiapositiva.com.br/certificacoes/pais-e-profissionais-da-saude/"},
+    {name:"EPEP - Parentalidade Positiva",url:"https://parentalidadepositiva.com/"}
+  ]
+},
+fr: {
+  resources: [
+    {name:"Mpedia (AFPA)",url:"https://www.mpedia.fr/"},{name:"Parents.fr",url:"https://www.parents.fr/"},
+    {name:"Na\u00eetre et grandir",url:"https://naitreetgrandir.com/fr/"},{name:"Papa Positive",url:"https://papapositive.fr/"},
+    {name:"La Leche League France",url:"https://www.lllfrance.org/"},{name:"B\u00e9b\u00e9s et Mamans",url:"https://bebesetmamans.20minutes.fr/"},
+    {name:"L'\u00e9cole des parents",url:"https://ecoledesparents-federation.org/"},{name:"1000 premiers jours",url:"https://www.1000-premiers-jours.fr/"},
+    {name:"Apprendre \u00e0 \u00e9duquer",url:"https://apprendreaeduquer.fr/"},{name:"Familipsy",url:"https://www.familipsy.com/"},
+    {name:"\u00c9ducation Positive",url:"https://educationpositive.fr/"}
+  ],
+  platforms: [
+    {name:"Reddit r/ParentingFR",url:"https://www.reddit.com/r/ParentingFR/"},
+    {name:"Doctissimo - Forum Familles",url:"https://forum.doctissimo.fr/famille/liste_categorie.htm"},
+    {name:"Magicmaman - Forum",url:"https://forum.magicmaman.com/"},
+    {name:"Familipsy Forum",url:"https://www.familipsy.com/forum/"}
+  ],
+  books: [
+    {name:"J'\u00e9l\u00e8ve mon enfant",author:"Laurence Pernoud",url:"https://www.amazon.fr/J\u00e9l\u00e8ve-mon-enfant-Laurence-Pernoud/dp/2501084985/"},
+    {name:"J'attends un enfant",author:"Laurence Pernoud",url:"https://www.amazon.fr/Jattends-enfant-2020-Laurence-Pernoud/dp/2501084950/"},
+    {name:"Au coeur des \u00e9motions de l'enfant",author:"Isabelle Filliozat",url:"https://www.amazon.fr/coeur-\u00e9motions-lenfant-Comprendre-Poche/dp/2501092015/"},
+    {name:"Parler pour que les enfants \u00e9coutent",author:"Adele Faber & E. Mazlish",url:"https://www.amazon.fr/Parler-enfants-\u00e9coutent-\u00e9couter-parlent/dp/2981161539/"},
+    {name:"Le Cerveau de votre enfant",author:"Daniel J. Siegel",url:"https://www.amazon.fr/cerveau-votre-enfant-Daniel-Siegel/dp/2896198954/"},
+    {name:"\u00c9lever son enfant autrement",author:"C. Dumonteil-Kremer",url:"https://www.amazon.fr/Elever-son-enfant-autrement-ressources/dp/2845923708/"},
+    {name:"Pour une enfance heureuse",author:"Catherine Gueguen",url:"https://www.amazon.fr/Pour-une-enfance-heureuse-d%C3%A9couvertes/dp/226625409X"},
+    {name:"J'ai tout essay\u00e9",author:"Isabelle Filliozat",url:"https://www.amazon.fr/Jai-tout-essay%C3%A9-Isabelle-Filliozat/dp/250113544X"},
+    {name:"La discipline positive",author:"Jane Nelsen",url:"https://www.amazon.fr/discipline-positive-Jane-Nelson/dp/2501141318"},
+    {name:"Parents efficaces",author:"Dr. Thomas Gordon",url:"https://www.amazon.fr/Parents-efficaces-Docteur-Thomas-Gordon/dp/2501147286"},
+    {name:"Le Burn-out parental",author:"M. Mikolajczak & I. Roskam",url:"https://www.amazon.fr/Burn-out-parental-L%C3%A9viter-sen-sortir/dp/2738135196"},
+    {name:"Le Guide du papa d\u00e9butant",author:"A. Vallette-Florence",url:"https://www.amazon.fr/guide-papa-d\u00e9butant-pu\u00e9riculture-relation/dp/2017054577/"},
+    {name:"Le Guide des papas d\u00e9butants",author:"Benjamin Perrier",url:"https://www.amazon.fr/Guide-Papas-D\u00e9butants-2019-2020/dp/2016285192/"},
+    {name:"Ces p\u00e8res qui \u00e9l\u00e8vent seuls leurs enfants",author:"G\u00e9rard Neyrand",url:"https://www.amazon.fr/p\u00e8res-\u00e9l\u00e8vent-seuls-leurs-enfants/dp/2130584799/"}
+  ],
+  techniques: [
+    {name:"Montessori",url:"https://fr.wikipedia.org/wiki/P\u00e9dagogie_Montessori"},
+    {name:"Waldorf-Steiner",url:"https://fr.wikipedia.org/wiki/P\u00e9dagogie_Steiner-Waldorf"},
+    {name:"Reggio Emilia",url:"https://fr.wikipedia.org/wiki/P\u00e9dagogie_de_Reggio_Emilia"},
+    {name:"HighScope"},{name:"Discipline positive",url:"https://www.disciplinepositive.fr/"},
+    {name:"Parentalit\u00e9 cr\u00e9ative",url:"https://www.parentalitecreative.com/"},
+    {name:"Communication Non Violente (CNV)",url:"https://www.cnvfrance.fr/"}
+  ],
+  courses: [
+    {name:"Discipline Positive France",url:"https://www.disciplinepositive.fr/"},
+    {name:"Coolparentsmakehappykids",url:"https://www.coolparentsmakehappykids.com/formations/"},
+    {name:"Les Ateliers Filliozat",url:"https://www.filliozat.net/les-ateliers-filliozat/"},
+    {name:"APcomm",url:"https://apcomm.fr/"},{name:"EdAcademy",url:"https://www.edacademy.fr/accompagnement-a-la-parentalite"},
+    {name:"Institut de la Parentalit\u00e9",url:"https://institut-parentalite.fr/"},
+    {name:"FFER - Formations",url:"https://ffer.org/offres-de-formation/"}
+  ]
+},
+it: {
+  resources: [
+    {name:"Nostrofiglio.it",url:"https://www.nostrofiglio.it/"},{name:"Bimbi Sani e Belli",url:"https://www.bimbisaniebelli.it/"},
+    {name:"SIP - Genitori",url:"https://sip.it/genitori/"},{name:"Pianeta Mamma",url:"https://www.pianetamamma.it/"},
+    {name:"Associazione Italiana Genitori",url:"https://www.age.it/"},{name:"Uppa",url:"https://www.uppa.it/"},
+    {name:"MOIGE",url:"https://www.moige.it/"},{name:"Il Bambino Naturale",url:"https://www.bambinonaturale.it/"},
+    {name:"MammaePapa.it",url:"https://www.mammaepapa.it/"},{name:"Mammeonline",url:"https://www.mammeonline.net/"},
+    {name:"QuiMamme",url:"https://quimamme.corriere.it/"}
+  ],
+  platforms: [
+    {name:"Reddit r/italy",url:"https://www.reddit.com/r/italy/"},{name:"Forum Alfemminile",url:"https://forum.alfemminile.com/forum/maternita-f23"},
+    {name:"Parentube",url:"https://www.parentube.it/"},{name:"Genitori.it",url:"https://www.genitori.it/"},
+    {name:"Forum Famiglie",url:"https://www.forumfamiglie.org/"}
+  ],
+  books: [
+    {name:"Diventare Padre",author:"A. Bortolotti",url:"https://www.amazon.it/Diventare-padre-Alessandra-Bortolotti/dp/8867730584/"},
+    {name:"Il manuale del pap\u00e0",author:"R. Richter & E. Sch\u00e4fer",url:"https://www.amazon.it/manuale-pap%C3%A0-quello-sapere-gravidanza/dp/8848119069"},
+    {name:"Il pap\u00e0 in attesa",author:"Gianluca Daffi",url:"https://www.amazon.it/pap%C3%A0-attesa-futuri-pap%C3%A0-responsabili/dp/8858043057/"},
+    {name:"Il metodo danese",author:"J. J. Alexander",url:"https://www.amazon.it/metodo-danese-crescere-bambini-genitori/dp/8854197157"},
+    {name:"Lo sviluppo della mente",author:"Daniel Siegel",url:"https://www.amazon.it/sviluppo-della-mente-Daniel-Siegel/dp/8870786161/"},
+    {name:"Beb\u00e8 a costo zero",author:"Giorgia Cozza",url:"https://www.amazon.it/Beb%C3%A8-costo-zero-Giorgia-Cozza/dp/8865800577/"},
+    {name:"Il bambino da 0 a 3 anni",author:"T. Berry Brazelton",url:"https://www.amazon.it/bambino-sviluppo-fisico-emotivo-comportamentale/dp/8817027863"},
+    {name:"Genitori efficaci",author:"Thomas Gordon",url:"https://www.amazon.it/Genitori-efficaci-Thomas-Gordon/dp/8856301075/"},
+    {name:"Come parlare perch\u00e9 i bambini ti ascoltino",author:"A. Faber & E. Mazlish",url:"https://www.amazon.it/parlare-bambini-ascoltino-ascoltare-parlino/dp/8804728728"},
+    {name:"Urlare non serve a nulla",author:"Daniele Novara",url:"https://www.amazon.it/Gestire-conflitti-ascoltare-guidarli-crescita/dp/8817076929"},
+    {name:"E se poi prende il vizio?",author:"A. Bortolotti",url:"https://www.amazon.it/Pregiudizi-culturali-bisogni-irrinunciabili-bambini/dp/8895177754"},
+    {name:"Il bambino \u00e8 competente",author:"Jesper Juul",url:"https://www.amazon.it/bambino-competente-Valori-conoscenze-famiglia/dp/8807170566"},
+    {name:"I no che aiutano a crescere",author:"Asha Phillips",url:"https://www.amazon.it/I-no-che-aiutano-crescere/dp/8807882671"},
+    {name:"Fate i bravi!",author:"Lucia Rizzi",url:"https://www.amazon.it/famosa-dItalia-consigli-diventare-genitori/dp/881701964X"}
+  ],
+  techniques: [
+    {name:"Montessori",url:"https://it.wikipedia.org/wiki/Metodo_Montessori"},
+    {name:"Waldorf-Steiner",url:"https://it.wikipedia.org/wiki/Pedagogia_Waldorf"},
+    {name:"Reggio Emilia",url:"https://it.wikipedia.org/wiki/Reggio_Emilia_Approach"},
+    {name:"HighScope"},{name:"Disciplina positiva"},{name:"Genitorialit\u00e0 consapevole"},
+    {name:"Comunicazione Non Violenta (CNV)"}
+  ],
+  courses: [
+    {name:"Scuola Genitori - Metodo Novara",url:"https://www.metododanielenovara.it/scuola-genitori/"},
+    {name:"Erickson - Parent Training",url:"https://www.erickson.it/it/parent-training"},
+    {name:"IGEA CPS",url:"https://www.igeacps.it/offerta-corsi-genitorialita-e-la-coppia/"},
+    {name:"Percorsi Formativi 06",url:"https://percorsiformativi06.it/formazione-per-genitori/"},
+    {name:"Genitore Informato",url:"https://genitoreinformato.com/"}
+  ]
+},
+ca: {
+  resources: [
+    {name:"Criatures - Diari Ara",url:"https://criatures.ara.cat/"},{name:"Criar.cat",url:"https://criar.cat/"},
+    {name:"El Tatano - Cavall Fort",url:"https://cavallfort.cat/el-tatano/"},
+    {name:"Miriam Tirado",url:"https://www.miriamtirado.com/ca/"},{name:"Dona Llum",url:"https://www.donallum.org/"},
+    {name:"Llars de Crian\u00e7a",url:"https://llarsdecrianca.cat/"},{name:"SocPetit.cat",url:"https://www.socpetit.cat/"},
+    {name:"Gencat - Crian\u00e7a Positiva",url:"https://dretssocials.gencat.cat/ca/ambits_tematics/families/crianca/"},
+    {name:"Eva Bach",url:"https://www.evabach.cat/publicacions/"},{name:"Assoc. Catalana de Llevadores",url:"https://www.llevadores.cat/"}
+  ],
+  platforms: [
+    {name:"Reddit r/catalunya",url:"https://www.reddit.com/r/catalunya/"},
+    {name:"SCP - Fam\u00edlies",url:"https://www.scpediatria.org/?p=page/html/families"}
+  ],
+  books: [
+    {name:"El meu nen no menja",author:"Carlos Gonz\u00e1lez",url:"https://www.grup62.cat/llibre-el-meu-nen-no-menja/94544"},
+    {name:"Estima'm quan menys m'ho mereixi",author:"Jaume Funes",url:"https://www.grup62.cat/llibre-estimam-quan-menys-mho-mereixi-perque-es-quan-mes-ho-necessito/299226"},
+    {name:"El cervell del nen",author:"Daniel J. Siegel",url:"https://vienaedicions.com/book/el-cervell-del-nen"},
+    {name:"Educar millor",author:"Carles Capdevila",url:"https://www.arcadia-editorial.com/llibres/educar-millor-onze-converses-per-acompanyar-families-i-mestres/"},
+    {name:"T'escolto, t'entenc, t'estimo",author:"M. J. Comellas",url:"https://www.grup62.cat/llibre-tescolto-tentenc-testimo-i-per-aixo-teducare-sense-sentir-me-culpable/287678"},
+    {name:"Educar sense cridar",author:"Alba Castellv\u00ed",url:"https://www.albacastellvi.cat/llibres/educar-sense-cridar/"},
+    {name:"Educar amb valors",author:"Joan Corbella",url:"https://www.grup62.cat/llibre-educar-amb-valors/345651"},
+    {name:"Enrabiats",author:"Miriam Tirado",url:"https://www.penguinllibres.com/tematiques/112498-libro-enrabiats-9788418033742"},
+    {name:"Sentir",author:"Miriam Tirado",url:"https://www.penguinllibres.com/tematiques/328243-libro-sentir-9788419259103"},
+    {name:"Mares i pares influencers",author:"Eva Bach & M. Jim\u00e9nez",url:"https://www.evabach.cat/mares-pares-influencers-eines-entendre-acompanyar-adolescents/?lang=ca"},
+    {name:"Sense dents i a mossegades",author:"J. Llorca & M. G\u00f3mez",url:"https://www.penguinllibres.com/tematiques/112099-libro-sense-dents-i-a-mossegades-9788417627454"}
+  ],
+  techniques: [
+    {name:"Montessori",url:"https://ca.wikipedia.org/wiki/M%C3%A8tode_Montessori"},
+    {name:"Waldorf",url:"https://ca.wikipedia.org/wiki/Pedagogia_Waldorf"},
+    {name:"Reggio Emilia",url:"https://ca.wikipedia.org/wiki/Reggio_Emilia"},
+    {name:"HighScope"},{name:"Disciplina positiva"},{name:"Crian\u00e7a respectuosa"},
+    {name:"Educaci\u00f3 emocional"},{name:"Comunicaci\u00f3 No Violenta (CNV)"}
+  ],
+  courses: [
+    {name:"BBVA Aprendemos Juntos (Catal\u00e0)",url:"https://aprendemosjuntos.bbva.com/ca/"},
+    {name:"Somriure - Crian\u00e7a Respectuosa BCN",url:"https://www.somriure-bcn.com/"},
+    {name:"Rosa Sensat - Formaci\u00f3",url:"https://www.rosasensat.org/category/formacio/"}
+  ]
+},
+de: {
+  resources: [
+    {name:"Eltern.de",url:"https://www.eltern.de/"},{name:"Urbia",url:"https://www.urbia.de/"},
+    {name:"Rund-ums-Baby",url:"https://www.rund-ums-baby.de/"},{name:"Familienhandbuch",url:"https://www.familienhandbuch.de/"},
+    {name:"Vaeter.de",url:"https://www.vaeter.de/"},{name:"Deutsche Liga f\u00fcr das Kind",url:"https://www.liga-kind.de/"},
+    {name:"SCHAU HIN!",url:"https://www.schau-hin.info/"},{name:"Kinder\u00e4rzte im Netz",url:"https://www.kinderaerzte-im-netz.de/"},
+    {name:"Familienportal des Bundes",url:"https://familienportal.de/"},{name:"elternsein.info (NZFH)",url:"https://www.elternsein.info/"},
+    {name:"bke-Onlineberatung",url:"https://www.bke-beratung.de/elternberatung"}
+  ],
+  platforms: [
+    {name:"Reddit r/Eltern",url:"https://www.reddit.com/r/Eltern/"},{name:"Reddit r/de",url:"https://www.reddit.com/r/de/"},
+    {name:"Eltern Forum",url:"https://forum.eltern.de/"},{name:"Urbia Forum",url:"https://www.urbia.de/forum/"},
+    {name:"HiPP Elternforum",url:"https://www.hipp.de/forum/"},{name:"Erziehung-Online",url:"https://www.erziehung-online.de/"},
+    {name:"Elternforen.com",url:"https://www.elternforen.com/"}
+  ],
+  books: [
+    {name:"Artgerecht",author:"Nicola Schmidt",url:"https://www.amazon.de/artgerecht-andere-Bed\u00fcrfnisse-Babys-Kleinkinder/dp/3466310490/"},
+    {name:"Das gew\u00fcnschteste Wunschkind\u2026",author:"Danielle Graf",url:"https://www.amazon.de/gew%C3%BCnschteste-Wunschkind-Zeiten-treibt-Wahnsinn/dp/3407864299/"},
+    {name:"Dein kompetentes Kind",author:"Jesper Juul",url:"https://www.amazon.de/Dein-kompetentes-Kind-Vertrauen-Selbstvertrauen/dp/3499622890/"},
+    {name:"Babyjahre",author:"Remo H. Largo",url:"https://www.amazon.de/Babyjahre-Entwicklung-Erziehung-ersten-Jahren/dp/3492306845"},
+    {name:"So viel Freude, so viel Wut",author:"Nora Imlau",url:"https://www.amazon.de/viel-Freude-Wut-Gef%C3%BChlsstarke-Einsch%C3%A4tzungsbogen/dp/3466310954"},
+    {name:"Kinder verstehen",author:"Herbert Renz-Polster",url:"https://www.amazon.de/Kinder-verstehen-Born-wild-Evolution/dp/3466308240"},
+    {name:"Das Buch, von dem du dir w\u00fcnschst\u2026",author:"Philippa Perry",url:"https://www.amazon.de/w%C3%BCnschst-deine-Eltern-h%C3%A4tten-gelesen/dp/3550200749"},
+    {name:"Jedes Kind ist hoch begabt",author:"Gerald H\u00fcther",url:"https://www.amazon.de/Jedes-Kind-ist-hoch-begabt/dp/3813504484"},
+    {name:"Wild Child",author:"Eliane Retz",url:"https://www.amazon.de/Wild-Child-Entwicklung-verstehen-Kleinkinder/dp/B0929CKWDY"},
+    {name:"Ich \u00fcbersetze dir dein Kind",author:"Julia Cammann",url:"https://www.amazon.de/-/en/%C3%BCbersetze-dein-Kind-bindungsorientiert-SPIEGEL-Bestseller/dp/3466312442"}
+  ],
+  techniques: [
+    {name:"Montessori",url:"https://de.wikipedia.org/wiki/Montessorip\u00e4dagogik"},
+    {name:"Waldorf",url:"https://de.wikipedia.org/wiki/Waldorfp\u00e4dagogik"},
+    {name:"Reggio Emilia",url:"https://de.wikipedia.org/wiki/Reggio-P\u00e4dagogik"},
+    {name:"HighScope"},{name:"Positive Disziplin"},{name:"Bed\u00fcrfnisorientierte Erziehung"},
+    {name:"Gewaltfreie Kommunikation (GFK)"}
+  ],
+  courses: [
+    {name:"Starke Eltern - Starke Kinder",url:"https://sesk.de/"},{name:"Kess-erziehen",url:"https://www.kess-erziehen.de/elternkurse-kess/"},
+    {name:"Triple P",url:"https://www.triplep-eltern.de/de-de/triple-p/"},{name:"MAPP-Empowerment",url:"https://www.mapp-empowerment.de/"},
+    {name:"DKSB - Starke Eltern",url:"https://kinderschutzbund.de/sesk/"},{name:"STEP",url:"https://www.instep-online.de/"},
+    {name:"DRK Elterncampus",url:"https://drk-elterncampus.de"}
+  ]
+}
+};
+
+const LABELS = {
+  en:{resources:"Resources",platforms:"Platforms",books:"Books",techniques:"Techniques & Philosophies",courses:"Courses",
+      resourcesDesc:"Trusted websites and organizations",platformsDesc:"Communities and forums",booksDesc:"Recommended reading",techniquesDesc:"Educational approaches and parenting philosophies",coursesDesc:"Online learning"},
+  es:{resources:"Recursos",platforms:"Plataformas",books:"Libros",techniques:"T\u00e9cnicas y Filosof\u00edas",courses:"Cursos",
+      resourcesDesc:"Sitios web y organizaciones de confianza",platformsDesc:"Comunidades y foros",booksDesc:"Lecturas recomendadas",techniquesDesc:"Enfoques educativos y filosof\u00edas de crianza",coursesDesc:"Aprendizaje en l\u00ednea"},
+  pt:{resources:"Recursos",platforms:"Plataformas",books:"Livros",techniques:"T\u00e9cnicas e Filosofias",courses:"Cursos",
+      resourcesDesc:"Sites e organiza\u00e7\u00f5es de confian\u00e7a",platformsDesc:"Comunidades e f\u00f3runs",booksDesc:"Leituras recomendadas",techniquesDesc:"Abordagens educacionais e filosofias de parentalidade",coursesDesc:"Aprendizagem online"},
+  fr:{resources:"Ressources",platforms:"Plateformes",books:"Livres",techniques:"Techniques et Philosophies",courses:"Cours",
+      resourcesDesc:"Sites web et organisations de confiance",platformsDesc:"Communaut\u00e9s et forums",booksDesc:"Lectures recommand\u00e9es",techniquesDesc:"Approches \u00e9ducatives et philosophies parentales",coursesDesc:"Apprentissage en ligne"},
+  it:{resources:"Risorse",platforms:"Piattaforme",books:"Libri",techniques:"Tecniche e Filosofie",courses:"Corsi",
+      resourcesDesc:"Siti web e organizzazioni affidabili",platformsDesc:"Comunit\u00e0 e forum",booksDesc:"Letture consigliate",techniquesDesc:"Approcci educativi e filosofie genitoriali",coursesDesc:"Formazione online"},
+  ca:{resources:"Recursos",platforms:"Plataformes",books:"Llibres",techniques:"T\u00e8cniques i Filosofies",courses:"Cursos",
+      resourcesDesc:"Llocs web i organitzacions de confian\u00e7a",platformsDesc:"Comunitats i f\u00f2rums",booksDesc:"Lectures recomanades",techniquesDesc:"Enfocaments educatius i filosofies de crian\u00e7a",coursesDesc:"Aprenentatge en l\u00ednia"},
+  de:{resources:"Ressourcen",platforms:"Plattformen",books:"B\u00fccher",techniques:"Techniken & Philosophien",courses:"Kurse",
+      resourcesDesc:"Vertrauensw\u00fcrdige Websites und Organisationen",platformsDesc:"Gemeinschaften und Foren",booksDesc:"Empfohlene Lekt\u00fcre",techniquesDesc:"P\u00e4dagogische Ans\u00e4tze und Erziehungsphilosophien",coursesDesc:"Online-Lernen"}
+};
+
+// ============================================================
+// RENDERING
+// ============================================================
+function renderCards(items, type) {
+  return items.map(item => {
+    const isLink = !!item.url;
+    const tag = isLink ? 'a' : 'div';
+    const href = isLink ? ` href="${item.url}" target="_blank" rel="noopener"` : '';
+    const cls = type === 'technique' ? ' card--technique' : '';
+    const icon = type === 'book' ? '\u{1F4D6}' : type === 'course' ? '\u{1F393}' : type === 'platform' ? '\u{1F4AC}' : type === 'technique' ? '\u{1F9E9}' : '\u{1F517}';
+    const meta = item.author ? `<div class="card-meta">${item.author}</div>` : '';
+    return `<${tag}${href} class="card reveal${cls}">
+      <div class="card-icon card-icon--${type}">${icon}</div>
+      <div class="card-body"><div class="card-title">${item.name}</div>${meta}</div>
+    </${tag}>`;
+  }).join('');
+}
+
+function renderLang(lang) {
+  const d = DATA[lang]; const l = LABELS[lang];
+  const sections = [
+    {key:'resources',icon:'resource',label:l.resources,desc:l.resourcesDesc,grid:'resources'},
+    {key:'platforms',icon:'platform',label:l.platforms,desc:l.platformsDesc,grid:'resources'},
+    {key:'books',icon:'book',label:l.books,desc:l.booksDesc,grid:'books'},
+    {key:'techniques',icon:'technique',label:l.techniques,desc:l.techniquesDesc,grid:'techniques'},
+    {key:'courses',icon:'course',label:l.courses,desc:l.coursesDesc,grid:'resources'}
+  ];
+  return sections.map(s => {
+    if (!d[s.key] || !d[s.key].length) return '';
+    return `<section class="section">
+      <div class="section-header reveal">
+        <div class="section-label">${s.label}</div>
+        <h2 class="section-title">${s.desc}</h2>
+      </div>
+      <div class="cards cards--${s.grid}">${renderCards(d[s.key], s.icon)}</div>
+    </section>`;
+  }).join('');
+}
+
+// ============================================================
+// INIT
+// ============================================================
+const content = document.getElementById('content');
+let currentLang = 'en';
+
+// Pre-render all langs
+const rendered = {};
+Object.keys(DATA).forEach(lang => {
+  const div = document.createElement('div');
+  div.className = 'lang-content';
+  div.dataset.lang = lang;
+  div.innerHTML = renderLang(lang);
+  content.appendChild(div);
+  rendered[lang] = div;
+});
+
+function setLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  document.querySelectorAll('.lang-content').forEach(c => c.classList.toggle('active', c.dataset.lang === lang));
+  observeReveals();
+}
+setLang('en');
+
+// Language buttons
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => setLang(btn.dataset.lang));
+});
+
+// Sticky nav shadow
+const nav = document.getElementById('langNav');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 50), {passive:true});
+
+// Scroll reveal
+function observeReveals() {
+  const els = document.querySelectorAll('.lang-content.active .reveal:not(.visible)');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((e,i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 40);
+        obs.unobserve(e.target);
+      }
+    });
+  }, {threshold:0.1});
+  els.forEach(el => obs.observe(el));
+}
+observeReveals();
+
+// Count stats
+let totalRes = 0, totalBooks = 0;
+Object.values(DATA).forEach(d => {
+  totalRes += (d.resources||[]).length + (d.platforms||[]).length + (d.courses||[]).length;
+  totalBooks += (d.books||[]).length;
+});
+
+function animateNum(el, target) {
+  let current = 0;
+  const step = Math.max(1, Math.floor(target / 40));
+  const timer = setInterval(() => {
+    current = Math.min(current + step, target);
+    el.textContent = current;
+    if (current >= target) clearInterval(timer);
+  }, 30);
+}
+animateNum(document.getElementById('total-resources'), totalRes);
+animateNum(document.getElementById('total-books'), totalBooks);
+</script>
+</body>
+</html>
