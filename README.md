@@ -83,6 +83,7 @@ Getting different opinions, resources and books from other parents' recommendati
 - [RIE Parenting (Resources for Infant Educarers)](https://www.rie.org/)
 - [Attachment Parenting](https://www.attachmentparenting.org/)
 - [Growth Mindset Parenting](https://www.mindsetworks.com/parents/growth-mindset-parenting)
+- [AQ Kids — Resilience Quiz](https://ordinarymantrying.com/tools/aq-kids/) - Free browser quiz that helps parents assess their child's resilience (AQ). Generates a personalized PDF report with a parent's letter. No sign-up needed.
 
 ## Courses
 - [Scientific Secrets for Raising Kids Who Thrive](https://www.thegreatcourses.com/courses/scientific-secrets-for-raising-kids-who-thrive.html)
