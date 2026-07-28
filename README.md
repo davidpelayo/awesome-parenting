@@ -43,6 +43,7 @@ Getting different opinions, resources and books from other parents' recommendati
 - [Reddit r/NewParents](https://www.reddit.com/r/NewParents/)
 - [BabyCenter](https://www.babycenter.com/)
 - [What to Expect](https://www.whattoexpect.com/)
+- [ColorKind](https://colorkind.app/) - Helps parents turn children's ideas or family photos into age-adjusted, printable coloring pages.
 
 ## Books
 - [Between Parent and Child - H. G. Ginott](https://www.goodreads.com/book/show/256004.Between_Parent_and_Child)
