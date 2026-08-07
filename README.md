@@ -35,6 +35,7 @@ Getting different opinions, resources and books from other parents' recommendati
 - [The Bump](https://www.thebump.com/)
 - [PBS Parents](https://www.pbs.org/parents/)
 - [Parenting Science](https://parentingscience.com/)
+- [Hearth Baby Sleep Schedule Calculator - how much sleep a baby needs by age, using age-banded ranges from the AAP/AASM and the NSF 2015 consensus](https://hearthcalc.com/baby-sleep-schedule-calculator)
 
 ## Platforms
 - [parenting.stackexchange.com](https://parenting.stackexchange.com/)
