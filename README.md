@@ -44,6 +44,8 @@ Getting different opinions, resources and books from other parents' recommendati
 - [BabyCenter](https://www.babycenter.com/)
 - [What to Expect](https://www.whattoexpect.com/)
 
+- [Minbao Feeding Tools](https://yy520-xx.github.io/minbao-feeding-tools/) - Free web app for tracking baby feeding, solid food introduction, and allergen reactions; especially useful for CMPA (cow's milk protein allergy) infants.
+
 ## Books
 - [Between Parent and Child - H. G. Ginott](https://www.goodreads.com/book/show/256004.Between_Parent_and_Child)
 - [The Pocket Parent - Gail Reichlin & Caroline Winkler](https://www.goodreads.com/book/show/581287.The_Pocket_Parent)
