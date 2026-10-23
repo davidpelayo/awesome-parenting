@@ -35,6 +35,7 @@ Getting different opinions, resources and books from other parents' recommendati
 - [The Bump](https://www.thebump.com/)
 - [PBS Parents](https://www.pbs.org/parents/)
 - [Parenting Science](https://parentingscience.com/)
+- [Name Awesome - U.S. baby name popularity since 1880, with meanings and origins](https://nameawesome.com/)
 
 ## Platforms
 - [parenting.stackexchange.com](https://parenting.stackexchange.com/)
