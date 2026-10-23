@@ -35,6 +35,7 @@ Getting different opinions, resources and books from other parents' recommendati
 - [The Bump](https://www.thebump.com/)
 - [PBS Parents](https://www.pbs.org/parents/)
 - [Parenting Science](https://parentingscience.com/)
+- [Growo growth calculators](https://usegrowo.com/calculators) - Free WHO and CDC growth percentile calculators for babies and children (weight, length, head circumference, BMI), plus corrected age for preterm babies. No sign-up needed.
 
 ## Platforms
 - [parenting.stackexchange.com](https://parenting.stackexchange.com/)
