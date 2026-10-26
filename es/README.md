@@ -41,6 +41,7 @@ en cuanto a buenas prácticas y metodologías, en términos generales, siempre e
 - [Lucía, mi pediatra](https://www.luciamipediatra.com/)
 - [Miriam Tirado - Consultora de crianza consciente](https://www.miriamtirado.com/)
 - [Espacio Crianza](https://espaciocrianza.com/)
+- [MiBajaParental - Planificador gratuito de la baja por nacimiento y calculadora de lactancia acumulada](https://www.mibajaparental.es/)
 
 ## Plataformas
 - [Criar con Sentido Común - Comunidad](https://www.criarconsentidocomun.com/comunidad/)
