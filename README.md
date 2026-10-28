@@ -84,6 +84,7 @@ Getting different opinions, resources and books from other parents' recommendati
 - [Attachment Parenting](https://www.attachmentparenting.org/)
 - [Growth Mindset Parenting](https://www.mindsetworks.com/parents/growth-mindset-parenting)
 - [AQ Kids — Resilience Quiz](https://ordinarymantrying.com/tools/aq-kids/) - Free browser quiz that helps parents assess their child's resilience (AQ). Generates a personalized PDF report with a parent's letter. No sign-up needed.
+- [Ripple (涟漪)](https://ripplefocus.github.io/en/parental-control/) - Free, local-only Android and iOS parental control and screen-time tool that blocks only short-video feeds (YouTube Shorts, Instagram Reels, WeChat Channels) while keeping family calls and chats working, with an 8-character Parent Unlock Code, monotonic clock tamper resistance, and OS-level uninstall lock.
 
 ## Courses
 - [Scientific Secrets for Raising Kids Who Thrive](https://www.thegreatcourses.com/courses/scientific-secrets-for-raising-kids-who-thrive.html)
