@@ -35,6 +35,7 @@ Getting different opinions, resources and books from other parents' recommendati
 - [The Bump](https://www.thebump.com/)
 - [PBS Parents](https://www.pbs.org/parents/)
 - [Parenting Science](https://parentingscience.com/)
+- [Shishur Jotno - Free Bangla baby care and pregnancy guide](https://shishurjotno.com/)
 
 ## Platforms
 - [parenting.stackexchange.com](https://parenting.stackexchange.com/)
