@@ -43,6 +43,7 @@ Getting different opinions, resources and books from other parents' recommendati
 - [Reddit r/NewParents](https://www.reddit.com/r/NewParents/)
 - [BabyCenter](https://www.babycenter.com/)
 - [What to Expect](https://www.whattoexpect.com/)
+- [Shortlist](https://shortlist.college/) - Free college planning for parents of U.S. high-school students.
 
 ## Books
 - [Between Parent and Child - H. G. Ginott](https://www.goodreads.com/book/show/256004.Between_Parent_and_Child)
